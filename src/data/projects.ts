@@ -20,6 +20,9 @@ import commercial1 from "@/assets/commercial/commercial-1.png.asset.json";
 import commercial2 from "@/assets/commercial/commercial-2.png.asset.json";
 import farmhouse1 from "@/assets/residential/farmhouse-1.png.asset.json";
 import farmhouse2 from "@/assets/residential/farmhouse-2.png.asset.json";
+import manufacturing1 from "@/assets/industrial/manufacturing-1.png.asset.json";
+import manufacturing2 from "@/assets/industrial/manufacturing-2.png.asset.json";
+
 
 
 export const categories = [
@@ -104,8 +107,26 @@ export const projects: Project[] = [
     ],
   },
   {
-    slug: "teak-travertine-apartment",
+    slug: "manufacturing-unit-chhatrapati-sambhajinagar",
     index: "04",
+    title: "Manufacturing Unit",
+    category: "Industrial",
+    meta: "Industrial · Production Facility · Chhatrapati Sambhajinagar",
+    year: "2026",
+    location: "Chhatrapati Sambhajinagar",
+    status: "In progress",
+    scope: "Architecture · Structural Design · Industrial Planning",
+    summary:
+      "A large-scale manufacturing unit designed for optimized production flow and structural durability. The design integrates high-span steel structures with natural ventilation and daylighting to create an efficient and comfortable industrial environment.",
+    cover: manufacturing1.url,
+    gallery: [
+      { src: manufacturing1.url, caption: "Industrial frontage — optimized for logistics and production" },
+      { src: manufacturing2.url, caption: "Structural view — high-span steel framework" },
+    ],
+  },
+  {
+    slug: "teak-travertine-apartment",
+    index: "06",
     title: "Teak & Travertine Apartment",
     category: "Interior",
     meta: "Interior · Turnkey · Living, dining & master suite",
@@ -127,7 +148,7 @@ export const projects: Project[] = [
   },
   {
     slug: "courtyard-garden-plot-215",
-    index: "05",
+    index: "06",
     title: "Courtyard Garden — Plot 215",
     category: "Landscaping",
     meta: "Landscaping · Hardscape, water body & planting design",
@@ -145,7 +166,7 @@ export const projects: Project[] = [
   },
   {
     slug: "commercial-complex-chhatrapati-sambhajinagar",
-    index: "06",
+    index: "07",
     title: "Commercial Complex",
     category: "Commercial",
     meta: "Commercial · Retail & Offices · Chhatrapati Sambhajinagar",
