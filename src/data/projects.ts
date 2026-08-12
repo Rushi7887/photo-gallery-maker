@@ -148,7 +148,7 @@ export const projects: Project[] = [
   },
   {
     slug: "courtyard-garden-plot-215",
-    index: "05",
+    index: "06",
     title: "Courtyard Garden — Plot 215",
     category: "Landscaping",
     meta: "Landscaping · Hardscape, water body & planting design",
