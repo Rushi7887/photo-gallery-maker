@@ -261,6 +261,15 @@ export const projects: Project[] = [
       { src: entranceNight.url, caption: "Night View — Entrance canopy and lighting design" },
       { src: villaNight.url, caption: "Residential Night View — Contemporary villa lighting" },
       { src: commercialModern.url, caption: "Commercial Perspective — Glass-fronted retail complex" },
+      { src: farmhouseSamba1.url, caption: "Farmhouse — Chhatrapati Sambhajinagar" },
+      { src: interiorLiving1.url, caption: "Interior — Living Room Perspective" },
+      { src: farmhousePaithan1.url, caption: "Farmhouse — Paithan" },
+      { src: interiorLiving2.url, caption: "Interior — Luxury Living Space" },
+      { src: farmhousePaithanNight.url, caption: "Farmhouse Paithan — Night View" },
+      { src: luxuryVillaNight.url, caption: "Luxury Villa — Night View" },
+      { src: interiorTvUnit.url, caption: "Interior — Modern TV Unit Design" },
+      { src: industrialGidc.mjs ? industrialGidc.url : (industrialGidc as any).url, caption: "Manufacturing Industry — GIDC" },
+
     ],
   },
 ];
