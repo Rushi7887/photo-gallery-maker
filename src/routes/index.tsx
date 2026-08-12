@@ -107,7 +107,7 @@ function Index() {
             </h2>
             <a
               href="#contact"
-              className="label-mono border border-foreground px-5 py-3 transition-colors hover:bg-ink hover:text-ink-foreground"
+              className="label-mono border border-foreground px-5 py-3 transition-colors hover:bg-foreground hover:text-background"
             >
               Enquire about a project
             </a>
@@ -129,7 +129,7 @@ function Index() {
                   className={
                     "label-mono border px-4 py-2.5 transition-colors " +
                     (isActive
-                      ? "border-ink bg-ink text-ink-foreground"
+                      ? "border-foreground bg-foreground text-background"
                       : "border-border text-muted-foreground hover:border-foreground hover:text-foreground")
                   }
                 >
