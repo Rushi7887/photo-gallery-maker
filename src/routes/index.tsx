@@ -102,7 +102,7 @@ function Index() {
         <div className="mx-auto max-w-[1400px] px-5 py-16 md:px-10 md:py-24">
           <div className="flex flex-wrap items-end justify-between gap-6">
             <h2 className="text-5xl font-black tracking-tight md:text-7xl" style={{ color: '#954842' }}>
-              Selected Projects
+              Our Projects
             </h2>
             <a
               href="#contact"
