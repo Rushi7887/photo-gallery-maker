@@ -140,8 +140,9 @@ export const projects: Project[] = [
     scope: "Architecture · Structural Design · Industrial Planning",
     summary:
       "A large-scale manufacturing unit designed for optimized production flow and structural durability. The design integrates high-span steel structures with natural ventilation and daylighting to create an efficient and comfortable industrial environment.",
-    cover: manufacturing1.url,
+    cover: manufacturingMasterLayout.url,
     gallery: [
+      { src: manufacturingMasterLayout.url, caption: "Master Layout — optimized site planning and logistics" },
       { src: manufacturing1.url, caption: "Industrial frontage — optimized for logistics and production" },
       { src: manufacturing2.url, caption: "Structural view — high-span steel framework" },
     ],
