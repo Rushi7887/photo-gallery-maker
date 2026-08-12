@@ -82,7 +82,7 @@ function ProjectPage() {
           Photographs ({project.gallery.length})
         </h2>
         <div className="mt-6 grid gap-6 md:grid-cols-2">
-          {project.gallery.map((img, i) => (
+          {project.gallery.map((img: { src: string; caption: string }, i: number) => (
             <figure
               key={img.src + i}
               className={i === 0 ? "md:col-span-2" : undefined}
