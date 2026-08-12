@@ -68,13 +68,13 @@ function Index() {
         <figure className="mt-12">
           <img
             src={heroImage}
-            alt="Brick screen house facade at dusk by VN Architects"
+            alt="Teak & Travertine Apartment living area — custom sofa and warm lighting"
             width={1600}
             height={1100}
             className="aspect-[16/10] w-full object-cover"
           />
           <figcaption className="mt-3 label-mono text-muted-foreground">
-            Residential — Brick Screen House
+            Interior — Teak & Travertine Apartment
           </figcaption>
         </figure>
       </section>
