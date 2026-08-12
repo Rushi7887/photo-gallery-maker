@@ -16,7 +16,7 @@ export function SiteHeader() {
             VN
           </span>
           <span className="hidden text-sm font-semibold tracking-tight sm:block">
-            VN Architects — Vedant Nalawade
+            VN Architects — Ar. Vedant Nalawade
           </span>
           <span className="text-sm font-semibold tracking-tight sm:hidden">VN Architects</span>
         </Link>
