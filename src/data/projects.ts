@@ -49,6 +49,14 @@ import luxuryBedroom from "@/assets/3d/luxury-bedroom.png.asset.json";
 import entranceNight from "@/assets/3d/entrance-night.png.asset.json";
 import villaNight from "@/assets/3d/villa-night.png.asset.json";
 import commercialModern from "@/assets/3d/commercial-modern.png.asset.json";
+import farmhouseSamba1 from "@/assets/3d/farmhouse-sambhajinagar-1.png.asset.json";
+import interiorLiving1 from "@/assets/3d/interior-living-room-1.png.asset.json";
+import farmhousePaithan1 from "@/assets/3d/farmhouse-paithan-1.png.asset.json";
+import interiorLiving2 from "@/assets/3d/interior-living-room-2.png.asset.json";
+import farmhousePaithanNight from "@/assets/3d/farmhouse-paithan-night.png.asset.json";
+import luxuryVillaNight from "@/assets/3d/luxury-villa-night.png.asset.json";
+import interiorTvUnit from "@/assets/3d/interior-tv-unit.png.asset.json";
+import industrialGidc from "@/assets/3d/industrial-gidc.png.asset.json";
 
 export const categories = [
   "Residential",
@@ -253,6 +261,15 @@ export const projects: Project[] = [
       { src: entranceNight.url, caption: "Night View — Entrance canopy and lighting design" },
       { src: villaNight.url, caption: "Residential Night View — Contemporary villa lighting" },
       { src: commercialModern.url, caption: "Commercial Perspective — Glass-fronted retail complex" },
+      { src: farmhouseSamba1.url, caption: "Farmhouse — Chhatrapati Sambhajinagar" },
+      { src: interiorLiving1.url, caption: "Interior — Living Room Perspective" },
+      { src: farmhousePaithan1.url, caption: "Farmhouse — Paithan" },
+      { src: interiorLiving2.url, caption: "Interior — Luxury Living Space" },
+      { src: farmhousePaithanNight.url, caption: "Farmhouse Paithan — Night View" },
+      { src: luxuryVillaNight.url, caption: "Luxury Villa — Night View" },
+      { src: interiorTvUnit.url, caption: "Interior — Modern TV Unit Design" },
+      { src: industrialGidc.url, caption: "Manufacturing Industry — GIDC" },
+
     ],
   },
 ];
