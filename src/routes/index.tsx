@@ -50,21 +50,21 @@ function Index() {
 
       {/* Hero */}
       <section className="mx-auto max-w-[1400px] px-5 pt-12 pb-16 md:px-10 md:pt-20 md:pb-24">
-        <div className="flex flex-wrap gap-x-8 gap-y-2 label-mono text-muted-foreground">
+        <div className="flex flex-wrap gap-x-8 gap-y-2 label-mono text-muted-foreground uppercase tracking-widest text-[10px]">
           <span>Architect</span>
           <span>Chhatrapati Sambhajinagar, Maharashtra, IN</span>
-          
         </div>
-        <h1 className="mt-8 text-[15vw] leading-[0.85] font-black tracking-[-0.04em] md:text-[9rem]">
+        <h1 className="mt-8 text-[15vw] leading-[0.85] font-black tracking-[-0.05em] md:text-[9.5rem]">
           Vedant
           <br />
           Nalawade
           <br />
-          Architects<span className="text-accent">.</span>
+          Architects<span className="inline-block ml-1 h-[0.12em] w-[0.12em] bg-[#b85c4a]"></span>
         </h1>
-        <p className="mt-8 max-w-2xl text-lg leading-relaxed text-muted-foreground md:text-xl">
-          Residential, industrial, interior and landscaping design — drawn with discipline, built
-          with material honesty and made for the way people actually live and work.
+        <p className="mt-12 max-w-2xl text-lg leading-relaxed text-[#666] md:text-xl">
+          Residential, industrial, interior and landscaping design — drawn with
+          discipline, built with material honesty and made for the way people actually
+          live and work.
         </p>
         <figure className="mt-12">
           <img
