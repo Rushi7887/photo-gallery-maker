@@ -39,6 +39,7 @@ import gundiView3 from "@/assets/industrial/gummidipoondi/view-03.png.asset.json
 // Other project assets
 import sharonHall1 from "@/assets/religious/sharon-hall-1.png.asset.json";
 import sharonHall2 from "@/assets/religious/sharon-hall-2.png.asset.json";
+import sharonHallPlan from "@/assets/religious/sharon-hall-plan.png.asset.json";
 
 export const categories = [
   "Residential",
