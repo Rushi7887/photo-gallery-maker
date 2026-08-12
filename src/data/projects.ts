@@ -22,6 +22,9 @@ import farmhouse1 from "@/assets/residential/farmhouse-1.png.asset.json";
 import farmhouse2 from "@/assets/residential/farmhouse-2.png.asset.json";
 import manufacturing1 from "@/assets/industrial/manufacturing-1.png.asset.json";
 import manufacturing2 from "@/assets/industrial/manufacturing-2.png.asset.json";
+import advancedPlant1 from "@/assets/industrial/advanced-plant-1.png.asset.json";
+import advancedPlant2 from "@/assets/industrial/advanced-plant-2.png.asset.json";
+
 
 export const categories = [
   "Residential",
@@ -125,7 +128,26 @@ export const projects: Project[] = [
       { src: commercial2.url, caption: "Perspective view — corner plot utilization and signage zones" },
     ],
   },
+  {
+    slug: "advanced-manufacturing-plant-shendra",
+    index: "05",
+    title: "Advanced Manufacturing Plant",
+    category: "Industrial",
+    meta: "Industrial · Advanced Production · Shendra",
+    year: "2026",
+    location: "Shendra, Chhatrapati Sambhajinagar",
+    status: "In progress",
+    scope: "Architecture · Industrial Masterplanning · Sustainable Design",
+    summary:
+      "A state-of-the-art manufacturing plant in Shendra designed for high-precision production. The facility incorporates advanced industrial planning, optimized logistics, and a modern architectural expression that reflects the cutting-edge technology housed within.",
+    cover: advancedPlant1.url,
+    gallery: [
+      { src: advancedPlant1.url, caption: "Main perspective — modern industrial facade" },
+      { src: advancedPlant2.url, caption: "Overall view — planning and logistics integration" },
+    ],
+  },
 ];
+
 
 export const heroImage = livingRoomSofa.url;
 
