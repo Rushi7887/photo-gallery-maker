@@ -90,7 +90,7 @@ function Index() {
           ))}
         </div>
 
-        <p className="label-mono text-xs tracking-[0.2em] text-accent uppercase">Ch. 01 — Manifesto</p>
+        <p className="label-mono text-xs tracking-[0.2em] text-accent uppercase">Manifesto</p>
         <blockquote className="mt-8 max-w-5xl text-3xl leading-[1.15] font-semibold tracking-[-0.02em] md:text-6xl">
           “Every plot has a logic of its own — light, wind, road and family. Our work is to listen
           first, <span className="text-accent">then draw a building that belongs there</span>.”
