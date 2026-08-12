@@ -268,7 +268,7 @@ export const projects: Project[] = [
       { src: farmhousePaithanNight.url, caption: "Farmhouse Paithan — Night View" },
       { src: luxuryVillaNight.url, caption: "Luxury Villa — Night View" },
       { src: interiorTvUnit.url, caption: "Interior — Modern TV Unit Design" },
-      { src: industrialGidc.mjs ? industrialGidc.url : (industrialGidc as any).url, caption: "Manufacturing Industry — GIDC" },
+      { src: industrialGidc.url, caption: "Manufacturing Industry — GIDC" },
 
     ],
   },
