@@ -2,10 +2,10 @@ import { Link } from "@tanstack/react-router";
 
 export function SiteHeader() {
   const items = [
-    { n: "01", label: "Index", to: "/" as const, hash: undefined },
-    { n: "02", label: "Works", to: "/" as const, hash: "works" },
-    { n: "03", label: "About", to: "/" as const, hash: "about" },
-    { n: "04", label: "Contact", to: "/" as const, hash: "contact" },
+    { n: "01", label: "Index", hash: "" },
+    { n: "02", label: "Works", hash: "works" },
+    { n: "03", label: "About", hash: "about" },
+    { n: "04", label: "Contact", hash: "contact" },
   ];
 
   return (
@@ -21,24 +21,38 @@ export function SiteHeader() {
           <span className="text-sm font-semibold tracking-tight sm:hidden">VN Architects</span>
         </Link>
         <nav className="flex items-center gap-4 md:gap-7">
-          {items.map((it) => (
-            <Link
-              key={it.label}
-              to={it.to}
-              hash={it.hash}
-              className="group flex items-baseline gap-1.5 text-sm text-foreground transition-colors hover:text-accent"
-            >
-              <span className="label-mono text-muted-foreground group-hover:text-accent">
-                {it.n}
-              </span>
-              <span className="hidden sm:inline">{it.label}</span>
-            </Link>
-          ))}
+          {items.map((it) =>
+            it.hash ? (
+              <Link
+                key={it.label}
+                to="/"
+                hash={it.hash}
+                className="group flex items-baseline gap-1.5 text-sm text-foreground transition-colors hover:text-accent"
+              >
+                <span className="label-mono text-muted-foreground group-hover:text-accent">
+                  {it.n}
+                </span>
+                <span className="hidden sm:inline">{it.label}</span>
+              </Link>
+            ) : (
+              <Link
+                key={it.label}
+                to="/"
+                className="group flex items-baseline gap-1.5 text-sm text-foreground transition-colors hover:text-accent"
+              >
+                <span className="label-mono text-muted-foreground group-hover:text-accent">
+                  {it.n}
+                </span>
+                <span className="hidden sm:inline">{it.label}</span>
+              </Link>
+            ),
+          )}
         </nav>
       </div>
     </header>
   );
 }
+
 
 export function SiteFooter() {
   return (
