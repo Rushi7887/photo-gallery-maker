@@ -1,0 +1,115 @@
+import heroBuilding from "@/assets/hero-building.jpg";
+import workResidence from "@/assets/work-residence.jpg";
+import workResidence2 from "@/assets/work-residence-2.jpg";
+import workIndustrial from "@/assets/work-industrial.jpg";
+import workIndustrial2 from "@/assets/work-industrial-2.jpg";
+import workInterior from "@/assets/work-interior.jpg";
+import workInterior2 from "@/assets/work-interior-2.jpg";
+import workLandscape from "@/assets/work-landscape.jpg";
+import workLandscape2 from "@/assets/work-landscape-2.jpg";
+
+export const categories = [
+  "Residential",
+  "Industrial",
+  "Interior",
+  "Landscaping",
+] as const;
+
+export type Category = (typeof categories)[number];
+
+export type Project = {
+  slug: string;
+  index: string;
+  title: string;
+  category: Category;
+  meta: string;
+  year: string;
+  location: string;
+  status: string;
+  scope: string;
+  summary: string;
+  cover: string;
+  gallery: { src: string; caption: string }[];
+};
+
+export const projects: Project[] = [
+  {
+    slug: "shankara-residency-villa",
+    index: "01",
+    title: "Shankara Residency Villa",
+    category: "Residential",
+    meta: "Residential · 4 BHK · Ulkanagari, Chhatrapati Sambhajinagar",
+    year: "2025",
+    location: "Ulkanagari, Chhatrapati Sambhajinagar",
+    status: "Completed",
+    scope: "Architecture · Structure coordination · Site supervision",
+    summary:
+      "A four-bedroom family villa planned around a north-lit courtyard. Deep balconies and a stone plinth keep the interiors cool through the Marathwada summer, while the plan keeps living, guest and private zones cleanly separated.",
+    cover: workResidence,
+    gallery: [
+      { src: workResidence, caption: "Street elevation — plaster, stone plinth and deep balconies" },
+      { src: workResidence2, caption: "Double-height living volume with stone feature wall" },
+      { src: heroBuilding, caption: "Brick jaali screen study for the west facade" },
+    ],
+  },
+  {
+    slug: "fabrication-unit-waluj",
+    index: "02",
+    title: "Fabrication Unit — Waluj",
+    category: "Industrial",
+    meta: "Industrial · 42,000 sq.ft · Shed, offices & site planning",
+    year: "2024",
+    location: "Waluj MIDC, Chhatrapati Sambhajinagar",
+    status: "Completed",
+    scope: "Master planning · PEB coordination · Office block",
+    summary:
+      "A 42,000 sq.ft fabrication shed with a mezzanine office block. Bay spacing, crane paths and truck movement were resolved first; roof monitors bring daylight deep into the shop floor and cut lighting load through the day.",
+    cover: workIndustrial,
+    gallery: [
+      { src: workIndustrial, caption: "Main shed — steel portal frame and metal cladding" },
+      { src: workIndustrial2, caption: "Shop floor with mezzanine office glazing" },
+    ],
+  },
+  {
+    slug: "teak-travertine-apartment",
+    index: "03",
+    title: "Teak & Travertine Apartment",
+    category: "Interior",
+    meta: "Interior · Turnkey · Living, dining & master suite",
+    year: "2025",
+    location: "Chhatrapati Sambhajinagar",
+    status: "Completed",
+    scope: "Turnkey interior · Furniture design · Lighting",
+    summary:
+      "A turnkey apartment interior built on two materials — teak veneer and travertine. Joinery runs floor to ceiling to hide services, and the lighting is layered so the same rooms read differently by day and at night.",
+    cover: workInterior,
+    gallery: [
+      { src: workInterior, caption: "Living room — full-height teak joinery wall" },
+      { src: workInterior2, caption: "Master suite with teak headboard panelling" },
+    ],
+  },
+  {
+    slug: "courtyard-garden-plot-215",
+    index: "04",
+    title: "Courtyard Garden — Plot 215",
+    category: "Landscaping",
+    meta: "Landscaping · Hardscape, water body & planting design",
+    year: "2026",
+    location: "Plot 215, Shankara Residency",
+    status: "In progress",
+    scope: "Hardscape · Water body · Planting & lighting",
+    summary:
+      "A private courtyard that turns a leftover side setback into the best room of the house. A still water body cools the incoming breeze, and the planting palette is chosen for low water use and year-round foliage.",
+    cover: workLandscape,
+    gallery: [
+      { src: workLandscape, caption: "Courtyard with still water body and uplit planting" },
+      { src: workLandscape2, caption: "Stone steppers and layered shrub beds" },
+    ],
+  },
+];
+
+export const heroImage = heroBuilding;
+
+export function getProject(slug: string) {
+  return projects.find((p) => p.slug === slug);
+}
