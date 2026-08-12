@@ -1,4 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { useEffect, useState } from "react";
 import { SiteFooter, SiteHeader } from "@/components/site-chrome";
 import { projects } from "@/data/projects";
 
@@ -23,6 +24,19 @@ export const Route = createFileRoute("/visualisation")({
 
 function VisualisationPage() {
   const visualisationProject = projects.find(p => p.category === "3D Visualization");
+  const [lightbox, setLightbox] = useState<number | null>(null);
+
+  useEffect(() => {
+    if (lightbox === null || !visualisationProject) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setLightbox(null);
+      if (e.key === "ArrowRight") setLightbox((i) => ((i ?? 0) + 1) % visualisationProject.gallery.length);
+      if (e.key === "ArrowLeft")
+        setLightbox((i) => ((i ?? 0) - 1 + visualisationProject.gallery.length) % visualisationProject.gallery.length);
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [lightbox, visualisationProject]);
 
   if (!visualisationProject) {
     return (
@@ -69,7 +83,12 @@ function VisualisationPage() {
         <div className="mt-24 grid gap-8 md:grid-cols-2">
           {visualisationProject.gallery.map((item, idx) => (
             <figure key={idx} className="group">
-              <div className="overflow-hidden bg-secondary">
+              <button
+                type="button"
+                onClick={() => setLightbox(idx)}
+                className="block w-full overflow-hidden bg-secondary"
+                aria-label={`Open photo ${idx + 1} full size`}
+              >
                 <img
                   src={item.src}
                   alt={item.caption}
@@ -78,7 +97,7 @@ function VisualisationPage() {
                   height={1000}
                   className="aspect-[4/3] w-full object-cover transition-transform duration-700 group-hover:scale-[1.03]"
                 />
-              </div>
+              </button>
               <figcaption className="mt-4 flex items-start gap-3">
                 <span className="label-mono text-accent text-xs">/{String(idx + 1).padStart(2, '0')}</span>
                 <span className="text-sm text-muted-foreground">{item.caption}</span>
@@ -97,6 +116,31 @@ function VisualisationPage() {
             </a>
         </div>
       </main>
+
+      {lightbox !== null && visualisationProject && (
+        <div
+          className="fixed inset-0 z-[100] flex items-center justify-center bg-ink/95 p-4"
+          role="dialog"
+          aria-modal="true"
+          onClick={() => setLightbox(null)}
+        >
+          <img
+            src={visualisationProject.gallery[lightbox]?.src}
+            alt={visualisationProject.gallery[lightbox]?.caption}
+            className="max-h-[85vh] w-auto max-w-full object-contain"
+          />
+          <p className="absolute bottom-6 left-1/2 -translate-x-1/2 label-mono text-ink-foreground">
+            {lightbox + 1} / {visualisationProject.gallery.length} — {visualisationProject.gallery[lightbox]?.caption}
+          </p>
+          <button
+            type="button"
+            onClick={() => setLightbox(null)}
+            className="absolute top-5 right-5 label-mono text-ink-foreground"
+          >
+            Close ✕
+          </button>
+        </div>
+      )}
 
       <SiteFooter />
     </div>
