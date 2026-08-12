@@ -68,8 +68,26 @@ export const projects: Project[] = [
     ],
   },
   {
-    slug: "fabrication-unit-waluj",
+    slug: "farmhouse-gangapur",
     index: "02",
+    title: "Farmhouse — Gangapur",
+    category: "Residential",
+    meta: "Residential · Weekend Home · Gangapur",
+    year: "2026",
+    location: "Gangapur, Chhatrapati Sambhajinagar",
+    status: "In progress",
+    scope: "Architecture · Landscape integration · Site supervision",
+    summary:
+      "A weekend retreat designed to blend seamlessly with its natural surroundings. The project focuses on open spaces, cross-ventilation, and panoramic views of the Gangapur landscape, creating a peaceful escape from the city.",
+    cover: farmhouse1.url,
+    gallery: [
+      { src: farmhouse1.url, caption: "Main elevation — contemporary form with large openings" },
+      { src: farmhouse2.url, caption: "Perspective view — integration with the landscape" },
+    ],
+  },
+  {
+    slug: "fabrication-unit-waluj",
+    index: "03",
     title: "Fabrication Unit — Waluj",
     category: "Industrial",
     meta: "Industrial · 42,000 sq.ft · Shed, offices & site planning",
