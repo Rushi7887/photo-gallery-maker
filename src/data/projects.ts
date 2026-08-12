@@ -35,12 +35,15 @@ import gundiView1 from "@/assets/industrial/gummidipoondi/view-01.webp.asset.jso
 import gundiView2 from "@/assets/industrial/gummidipoondi/view-02.webp.asset.json";
 import gundiView3 from "@/assets/industrial/gummidipoondi/view-03.png.asset.json";
 
-
+// Religious project assets
+import sharonHall1 from "@/assets/religious/sharon-hall-1.png.asset.json";
+import sharonHall2 from "@/assets/religious/sharon-hall-2.png.asset.json";
 
 export const categories = [
   "Residential",
   "Industrial",
   "Commercial",
+  "Religious",
   "Interior",
   "Landscaping",
 ] as const;
@@ -197,9 +200,25 @@ export const projects: Project[] = [
       { src: engineeringSitePlan.url, caption: "Site plan — overall layout and landscape integration" },
     ],
   },
+  {
+    slug: "sharon-prayer-hall",
+    index: "08",
+    title: "Sharon Prayer Hall",
+    category: "Religious",
+    meta: "Religious · Prayer Hall · Chhatrapati Sambhajinagar",
+    year: "2026",
+    location: "Bhimnagar Bhawsingpura, Chhatrapati Sambhajinagar",
+    status: "In progress",
+    scope: "Architecture · Modern Facade · Lighting Design",
+    summary:
+      "A contemporary prayer hall featuring a serene white facade accented with navy blue framing. The design incorporates tiered architectural volumes and prominent illuminated signage, creating a landmark of tranquility in the neighborhood.",
+    cover: sharonHall1.url,
+    gallery: [
+      { src: sharonHall1.url, caption: "Main elevation — contemporary form with illuminated cross" },
+      { src: sharonHall2.url, caption: "Alternative perspective — night view and lighting integration" },
+    ],
+  },
 ];
-
-
 
 export const heroImage = livingRoomSofa.url;
 
