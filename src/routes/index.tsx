@@ -99,12 +99,12 @@ function Index() {
       </section>
 
 
-      {/* Works */}
-      <section id="works" className="scroll-mt-24 border-t border-border">
+      {/* Projects */}
+      <section id="projects" className="scroll-mt-24 border-t border-border">
         <div className="mx-auto max-w-[1400px] px-5 py-16 md:px-10 md:py-24">
           <div className="flex flex-wrap items-end justify-between gap-6">
             <h2 className="text-5xl font-black tracking-tight md:text-7xl">
-              Selected <span className="text-muted-foreground">Works</span>
+              Selected <span className="text-muted-foreground">Projects</span>
             </h2>
             <a
               href="#contact"
@@ -189,7 +189,7 @@ function Index() {
               type="button"
               onClick={() => {
                 setActive(c);
-                document.getElementById("works")?.scrollIntoView({ behavior: "smooth" });
+                document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" });
               }}
               className="bg-secondary p-6 text-left transition-colors hover:bg-background"
             >

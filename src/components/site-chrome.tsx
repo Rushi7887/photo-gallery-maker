@@ -3,7 +3,7 @@ import { Link } from "@tanstack/react-router";
 export function SiteHeader() {
   const items = [
     { n: "01", label: "Index", to: "/", hash: "" },
-    { n: "02", label: "Works", to: "/", hash: "works" },
+    { n: "02", label: "Projects", to: "/", hash: "projects" },
     { n: "03", label: "3D Visualisation", to: "/visualisation", hash: "" },
     { n: "04", label: "Contact", to: "/", hash: "contact" },
   ];
