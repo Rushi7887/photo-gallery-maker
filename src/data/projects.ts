@@ -16,9 +16,13 @@ import kitchen1 from "@/assets/interior/kitchen-1.png.asset.json";
 import livingRoomSofa from "@/assets/interior/living-room-sofa.png.asset.json";
 import kitchenDining from "@/assets/interior/kitchen-dining.png.asset.json";
 
+import commercial1 from "@/assets/commercial/commercial-1.png.asset.json";
+import commercial2 from "@/assets/commercial/commercial-2.png.asset.json";
+
 export const categories = [
   "Residential",
   "Industrial",
+  "Commercial",
   "Interior",
   "Landscaping",
 ] as const;
