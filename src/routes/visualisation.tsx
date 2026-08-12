@@ -62,10 +62,6 @@ function VisualisationPage() {
                 <p className="label-mono text-xs text-muted-foreground uppercase">Services</p>
                 <p className="mt-2 text-sm">{visualisationProject.scope}</p>
               </div>
-              <div>
-                <p className="label-mono text-xs text-muted-foreground uppercase">Status</p>
-                <p className="mt-2 text-sm">{visualisationProject.status}</p>
-              </div>
             </div>
           </div>
         </div>
