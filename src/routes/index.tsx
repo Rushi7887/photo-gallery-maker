@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useState, useEffect } from "react";
 import { SiteFooter, SiteHeader } from "@/components/site-chrome";
-import { categories, heroImage, projects, type Category } from "@/data/projects";
+import { categories, heroImage, heroSlideshow, projects, type Category } from "@/data/projects";
 
 export const Route = createFileRoute("/")({
   head: () => ({
