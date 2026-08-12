@@ -21,32 +21,27 @@ export function SiteHeader() {
           <span className="text-sm font-semibold tracking-tight sm:hidden">VN Architects</span>
         </Link>
         <nav className="flex items-center gap-4 md:gap-7">
-          {items.map((it) =>
-            it.hash ? (
-              <Link
-                key={it.label}
-                to="/"
-                hash={it.hash}
-                className="group flex items-baseline gap-1.5 text-sm text-foreground transition-colors hover:text-accent"
-              >
-                <span className="label-mono text-muted-foreground group-hover:text-accent">
-                  {it.n}
-                </span>
-                <span className="hidden sm:inline">{it.label}</span>
-              </Link>
-            ) : (
-              <Link
-                key={it.label}
-                to="/"
-                className="group flex items-baseline gap-1.5 text-sm text-foreground transition-colors hover:text-accent"
-              >
-                <span className="label-mono text-muted-foreground group-hover:text-accent">
-                  {it.n}
-                </span>
-                <span className="hidden sm:inline">{it.label}</span>
-              </Link>
-            ),
-          )}
+          {items.map((it) => (
+            <Link
+              key={it.label}
+              to="/"
+              hash={it.hash}
+              className="group flex items-baseline gap-1.5 text-sm text-foreground transition-colors hover:text-accent"
+              onClick={() => {
+                if (it.label === "3D Visualisation") {
+                  // Small delay to ensure navigation/scroll happens first
+                  setTimeout(() => {
+                    window.dispatchEvent(new CustomEvent("set-filter", { detail: "3D Visualization" }));
+                  }, 100);
+                }
+              }}
+            >
+              <span className="label-mono text-muted-foreground group-hover:text-accent">
+                {it.n}
+              </span>
+              <span className="hidden sm:inline">{it.label}</span>
+            </Link>
+          ))}
         </nav>
       </div>
     </header>
