@@ -78,10 +78,15 @@ export function SiteFooter() {
           </div>
           <div>
             <p className="label-mono opacity-60">Studio</p>
-            <p className="mt-2 text-lg leading-snug opacity-90">
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=Office+No.+6,+Plot+No.+215,+Shankara+Residency,+Ulkanagari,+Chhatrapati+Sambhajinagar"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-2 block text-lg leading-snug opacity-90 underline-offset-4 hover:underline"
+            >
               Office No. 6, Plot No. 215, Shankara Residency, Ulkanagari, Chhatrapati
               Sambhajinagar
-            </p>
+            </a>
           </div>
         </div>
         <div className="mt-16 flex flex-wrap justify-between gap-3 border-t border-white/15 pt-6 label-mono opacity-60">
