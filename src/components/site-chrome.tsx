@@ -9,16 +9,16 @@ export function SiteHeader() {
   ];
 
   return (
-    <header className="sticky top-0 z-50 border-b border-border bg-background/90 backdrop-blur">
+    <header className="sticky top-0 z-50 border-b border-white/10 backdrop-blur text-white" style={{ backgroundColor: '#954842' }}>
       <div className="mx-auto flex max-w-[1400px] items-center justify-between gap-6 px-5 py-4 md:px-10">
         <Link to="/" className="flex items-center gap-3">
-          <span className="flex h-8 w-8 items-center justify-center bg-ink text-ink-foreground label-mono">
+          <span className="flex h-8 w-8 items-center justify-center bg-white text-[#954842] label-mono">
             VN
           </span>
-          <span className="hidden text-sm font-semibold tracking-tight sm:block">
+          <span className="hidden text-sm font-semibold tracking-tight sm:block text-white">
             VN Architects — Ar. Vedant Nalawade
           </span>
-          <span className="text-sm font-semibold tracking-tight sm:hidden">VN Architects</span>
+          <span className="text-sm font-semibold tracking-tight sm:hidden text-white">VN Architects</span>
         </Link>
         <nav className="flex items-center gap-4 md:gap-7">
           {items.map((it) => (
@@ -26,9 +26,9 @@ export function SiteHeader() {
               key={it.label}
               to={it.to}
               hash={it.hash}
-              className="group flex items-baseline gap-1.5 text-sm text-foreground transition-colors hover:text-accent"
+              className="group flex items-baseline gap-1.5 text-sm text-white/90 transition-colors hover:text-white"
             >
-              <span className="label-mono text-muted-foreground group-hover:text-accent">
+              <span className="label-mono text-white/60 group-hover:text-white">
                 {it.n}
               </span>
               <span className="hidden sm:inline">{it.label}</span>
