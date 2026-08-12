@@ -28,6 +28,7 @@ import engineeringInterior from "@/assets/industrial/industrial-interior.png.ass
 import engineeringExterior from "@/assets/industrial/industrial-exterior-perspective.png.asset.json";
 import engineeringLoading from "@/assets/industrial/industrial-loading-bay.png.asset.json";
 import engineeringSitePlan from "@/assets/industrial/industrial-site-plan.png.asset.json";
+import manufacturingMasterLayout from "@/assets/industrial/manufacturing-unit-master-layout.png.asset.json";
 
 // Gummidipoondi project assets
 import gundiLayout from "@/assets/industrial/gummidipoondi/master-layout.png.asset.json";
