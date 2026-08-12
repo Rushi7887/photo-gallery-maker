@@ -122,6 +122,24 @@ export const projects: Project[] = [
       { src: workLandscape2, caption: "Stone steppers and layered shrub beds" },
     ],
   },
+  {
+    slug: "commercial-complex-chhatrapati-sambhajinagar",
+    index: "05",
+    title: "Commercial Complex",
+    category: "Commercial",
+    meta: "Commercial · Retail & Offices · Chhatrapati Sambhajinagar",
+    year: "2026",
+    location: "Chhatrapati Sambhajinagar",
+    status: "In progress",
+    scope: "Architecture · Commercial planning · Facade design",
+    summary:
+      "A modern commercial complex designed for high visibility and efficient retail flow. The facade uses a mix of glass and solid volumes to create a contemporary landmark while maximizing natural light for the upper-floor office spaces.",
+    cover: commercial1.url,
+    gallery: [
+      { src: commercial1.url, caption: "Front elevation — modern glass facade and retail frontage" },
+      { src: commercial2.url, caption: "Perspective view — corner plot utilization and signage zones" },
+    ],
+  },
 ];
 
 export const heroImage = livingRoomSofa.url;
