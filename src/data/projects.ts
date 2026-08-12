@@ -28,6 +28,8 @@ import engineeringInterior from "@/assets/industrial/industrial-interior.png.ass
 import engineeringExterior from "@/assets/industrial/industrial-exterior-perspective.png.asset.json";
 import engineeringLoading from "@/assets/industrial/industrial-loading-bay.png.asset.json";
 import engineeringSitePlan from "@/assets/industrial/industrial-site-plan.png.asset.json";
+import engineeringVideoExt from "@/assets/engineering-external-video.asset.json";
+import engineeringVideoInt from "@/assets/engineering-internal-video.asset.json";
 
 // Gummidipoondi project assets
 import gundiLayout from "@/assets/industrial/gummidipoondi/master-layout.png.asset.json";
@@ -80,7 +82,7 @@ export type Project = {
   scope: string;
   summary: string;
   cover: string;
-  video?: string;
+  videos?: string[];
   gallery: { src: string; caption: string }[];
 };
 
@@ -98,6 +100,7 @@ export const projects: Project[] = [
     summary:
       "A specialized facility for engineering and automotive manufacturing located in Chikhalthana MIDC. The project features optimized site planning, specialized loading bays, and a high-efficiency layout designed for heavy industrial operations.",
     cover: engineeringExterior.url,
+    videos: [engineeringVideoExt.url, engineeringVideoInt.url],
     
     gallery: [
       { src: engineeringExterior.url, caption: "Main perspective — industrial facade and entrance" },

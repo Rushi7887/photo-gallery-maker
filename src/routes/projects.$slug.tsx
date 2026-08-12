@@ -124,6 +124,24 @@ function ProjectPage() {
           ))}
         </div>
 
+        {project.videos && project.videos.length > 0 && (
+          <>
+            <h2 className="mt-20 label-mono text-muted-foreground">Walkthrough Videos ({project.videos.length})</h2>
+            <div className="mt-6 grid gap-6 md:grid-cols-2">
+              {project.videos.map((v, idx) => (
+                <div key={idx} className="overflow-hidden rounded-lg bg-secondary">
+                  <video 
+                    src={v} 
+                    controls 
+                    className="w-full aspect-video object-cover"
+                    poster={project.cover}
+                  />
+                </div>
+              ))}
+            </div>
+          </>
+        )}
+
         <h2 className="mt-20 label-mono text-muted-foreground">More projects</h2>
         <div className="mt-6 grid gap-8 md:grid-cols-3">
           {others.map((p) => (
