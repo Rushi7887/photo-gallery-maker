@@ -164,6 +164,7 @@ export const projects: Project[] = [
     gallery: [
       { src: sharonHall1.url, caption: "Main elevation — contemporary form with illuminated cross" },
       { src: sharonHall2.url, caption: "Alternative perspective — night view and lighting integration" },
+      { src: sharonHallPlan.url, caption: "Floor Plan — interior layout and seating arrangement" },
     ],
   },
   {
