@@ -23,8 +23,6 @@ import farmhouse2 from "@/assets/residential/farmhouse-2.png.asset.json";
 import manufacturing1 from "@/assets/industrial/manufacturing-1.png.asset.json";
 import manufacturing2 from "@/assets/industrial/manufacturing-2.png.asset.json";
 
-
-
 export const categories = [
   "Residential",
   "Industrial",
@@ -110,26 +108,8 @@ export const projects: Project[] = [
     ],
   },
   {
-    slug: "courtyard-garden-plot-215",
-    index: "04",
-    title: "Courtyard Garden — Plot 215",
-    category: "Landscaping",
-    meta: "Landscaping · Hardscape, water body & planting design",
-    year: "2026",
-    location: "Plot 215, Shankara Residency",
-    status: "In progress",
-    scope: "Hardscape · Water body · Planting & lighting",
-    summary:
-      "A private courtyard that turns a leftover side setback into the best room of the house. A still water body cools the incoming breeze, and the planting palette is chosen for low water use and year-round foliage.",
-    cover: workLandscape,
-    gallery: [
-      { src: workLandscape, caption: "Courtyard with still water body and uplit planting" },
-      { src: workLandscape2, caption: "Stone steppers and layered shrub beds" },
-    ],
-  },
-  {
     slug: "commercial-complex-chhatrapati-sambhajinagar",
-    index: "05",
+    index: "04",
     title: "Commercial Complex",
     category: "Commercial",
     meta: "Commercial · Retail & Offices · Chhatrapati Sambhajinagar",
