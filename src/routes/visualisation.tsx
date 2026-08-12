@@ -111,7 +111,7 @@ function VisualisationPage() {
             <p className="label-mono text-muted-foreground mb-6">Want to see your project in 3D?</p>
             <a
               href="#contact"
-              className="inline-block label-mono border border-foreground px-8 py-4 transition-colors hover:bg-ink hover:text-ink-foreground"
+              className="inline-block label-mono border border-foreground px-8 py-4 transition-colors hover:bg-foreground hover:text-background"
             >
               Start a Visualization Project
             </a>
