@@ -29,6 +29,12 @@ import engineeringExterior from "@/assets/industrial/industrial-exterior-perspec
 import engineeringLoading from "@/assets/industrial/industrial-loading-bay.png.asset.json";
 import engineeringSitePlan from "@/assets/industrial/industrial-site-plan.png.asset.json";
 
+// Gummidipoondi project assets
+import gundiLayout from "@/assets/industrial/gummidipoondi/master-layout.png.asset.json";
+import gundiView1 from "@/assets/industrial/gummidipoondi/view-01.webp.asset.json";
+import gundiView2 from "@/assets/industrial/gummidipoondi/view-02.webp.asset.json";
+import gundiView3 from "@/assets/industrial/gummidipoondi/view-03.png.asset.json";
+
 
 
 export const categories = [
@@ -94,8 +100,28 @@ export const projects: Project[] = [
     ],
   },
   {
-    slug: "teak-travertine-apartment",
+    slug: "manufacturing-unit-gummidipoondi",
     index: "03",
+    title: "Manufacturing Unit — Gummidipoondi",
+    category: "Industrial",
+    meta: "Industrial · Manufacturing Facility · Gummidipoondi",
+    year: "2026",
+    location: "Gummidipoondi",
+    status: "In progress",
+    scope: "Architecture · Master Planning · Industrial Design",
+    summary:
+      "A sophisticated industrial manufacturing facility in Gummidipoondi, planned for maximum efficiency and site utilization. The design features a comprehensive master layout that integrates production zones, logistics, and administrative areas.",
+    cover: gundiView3.url,
+    gallery: [
+      { src: gundiLayout.url, caption: "Master Layout — site planning and logistics flow" },
+      { src: gundiView1.url, caption: "Aerial view — site integration and roof planning" },
+      { src: gundiView2.url, caption: "Perspective view — industrial facade and warehouse layout" },
+      { src: gundiView3.url, caption: "Main elevation — contemporary industrial architecture" },
+    ],
+  },
+  {
+    slug: "teak-travertine-apartment",
+    index: "04",
     title: "Teak & Travertine Apartment",
     category: "Interior",
     meta: "Interior · Turnkey · Living, dining & master suite",
@@ -117,7 +143,7 @@ export const projects: Project[] = [
   },
   {
     slug: "commercial-complex-chhatrapati-sambhajinagar",
-    index: "04",
+    index: "05",
     title: "Commercial Complex",
     category: "Commercial",
     meta: "Commercial · Retail & Offices · Chhatrapati Sambhajinagar",
@@ -135,7 +161,7 @@ export const projects: Project[] = [
   },
   {
     slug: "advanced-manufacturing-plant-shendra",
-    index: "05",
+    index: "06",
     title: "Advanced Manufacturing Plant",
     category: "Industrial",
     meta: "Industrial · Advanced Production · Shendra",
@@ -153,7 +179,7 @@ export const projects: Project[] = [
   },
   {
     slug: "engineering-automotive-manufacturing-industry-chikhalthana",
-    index: "06",
+    index: "07",
     title: "Engineering & Automotive Manufacturing",
     category: "Industrial",
     meta: "Industrial · Automotive Manufacturing · Chikhalthana MIDC",
