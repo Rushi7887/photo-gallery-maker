@@ -80,6 +80,7 @@ export type Project = {
   scope: string;
   summary: string;
   cover: string;
+  video?: string;
   gallery: { src: string; caption: string }[];
 };
 
@@ -97,6 +98,7 @@ export const projects: Project[] = [
     summary:
       "A specialized facility for engineering and automotive manufacturing located in Chikhalthana MIDC. The project features optimized site planning, specialized loading bays, and a high-efficiency layout designed for heavy industrial operations.",
     cover: engineeringExterior.url,
+    video: "https://res.cloudinary.com/ztf6nxsx/video/upload/v1786553044/LEU_Plant_Updated_Internal_Walkthrough.mp4",
     gallery: [
       { src: engineeringExterior.url, caption: "Main perspective — industrial facade and entrance" },
       { src: engineeringInterior.url, caption: "Interior view — optimized storage and warehouse layout" },

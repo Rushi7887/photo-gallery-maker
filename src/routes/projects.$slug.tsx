@@ -91,7 +91,19 @@ function ProjectPage() {
         <h2 className="mt-16 label-mono text-muted-foreground">
           Photographs ({project.gallery.length})
         </h2>
-        <div className="mt-6 grid gap-6 md:grid-cols-2">
+        
+        {project.video && (
+          <div className="mt-6 overflow-hidden rounded-lg bg-secondary">
+            <video 
+              src={project.video} 
+              controls 
+              className="w-full aspect-video object-cover"
+              poster={project.cover}
+            />
+          </div>
+        )}
+
+        <div className="mt-10 grid gap-6 md:grid-cols-2">
           {project.gallery.map((img: { src: string; caption: string }, i: number) => (
             <figure
               key={img.src + i}
