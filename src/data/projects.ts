@@ -166,7 +166,7 @@ export const projects: Project[] = [
   },
   {
     slug: "commercial-complex-chhatrapati-sambhajinagar",
-    index: "06",
+    index: "07",
     title: "Commercial Complex",
     category: "Commercial",
     meta: "Commercial · Retail & Offices · Chhatrapati Sambhajinagar",
