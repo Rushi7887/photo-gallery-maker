@@ -64,14 +64,14 @@ function Index() {
           <span>Chhatrapati Sambhajinagar, Maharashtra, IN</span>
         </div>
         <h1 
-          className="mt-8 text-[15vw] leading-[0.85] font-black tracking-[-0.05em] md:text-[9.5rem]"
+          className="mt-8 text-[15vw] leading-[0.85] font-black tracking-[-0.05em] md:text-[9.5rem] uppercase"
           style={{ color: '#954842' }}
         >
           Ar. Vedant
           <br />
           Nalawade
           <br />
-          Architects<span className="inline-block ml-1 h-[0.12em] w-[0.12em] bg-[#b85c4a]"></span>
+          Architects.
         </h1>
         <p className="mt-12 max-w-2xl text-lg leading-relaxed text-[#666] md:text-xl">
           Residential, industrial, interior and landscaping design — drawn with
