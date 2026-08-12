@@ -52,7 +52,16 @@ function ProjectPage() {
       <SiteHeader />
 
       <article className="mx-auto max-w-[1400px] px-5 py-12 md:px-10 md:py-20">
-        <Link to="/" hash="works" className="label-mono text-muted-foreground hover:text-accent">
+        <Link
+          to="/"
+          hash="works"
+          className="label-mono text-muted-foreground hover:text-accent"
+          onClick={() => {
+            if (project.category) {
+              window.dispatchEvent(new CustomEvent("set-filter", { detail: project.category }));
+            }
+          }}
+        >
           ← Back to works
         </Link>
 
