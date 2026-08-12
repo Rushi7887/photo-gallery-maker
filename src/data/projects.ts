@@ -24,6 +24,11 @@ import manufacturing1 from "@/assets/industrial/manufacturing-1.png.asset.json";
 import manufacturing2 from "@/assets/industrial/manufacturing-2.png.asset.json";
 import advancedPlant1 from "@/assets/industrial/advanced-plant-1.png.asset.json";
 import advancedPlant2 from "@/assets/industrial/advanced-plant-2.png.asset.json";
+import engineeringInterior from "@/assets/industrial/industrial-interior.png.asset.json";
+import engineeringExterior from "@/assets/industrial/industrial-exterior-perspective.png.asset.json";
+import engineeringLoading from "@/assets/industrial/industrial-loading-bay.png.asset.json";
+import engineeringSitePlan from "@/assets/industrial/industrial-site-plan.png.asset.json";
+
 
 
 export const categories = [
@@ -146,7 +151,28 @@ export const projects: Project[] = [
       { src: advancedPlant2.url, caption: "Overall view — planning and logistics integration" },
     ],
   },
+  {
+    slug: "engineering-automotive-manufacturing-industry-chikhalthana",
+    index: "06",
+    title: "Engineering & Automotive Manufacturing",
+    category: "Industrial",
+    meta: "Industrial · Automotive Manufacturing · Chikhalthana MIDC",
+    year: "2026",
+    location: "Chikhalthana MIDC, Chhatrapati Sambhajinagar",
+    status: "In progress",
+    scope: "Architecture · Industrial Masterplanning · Layout Design",
+    summary:
+      "A specialized facility for engineering and automotive manufacturing located in Chikhalthana MIDC. The project features optimized site planning, specialized loading bays, and a high-efficiency layout designed for heavy industrial operations.",
+    cover: engineeringExterior.url,
+    gallery: [
+      { src: engineeringExterior.url, caption: "Main perspective — industrial facade and entrance" },
+      { src: engineeringInterior.url, caption: "Interior view — optimized storage and warehouse layout" },
+      { src: engineeringLoading.url, caption: "Loading bay — logistics and dispatch area" },
+      { src: engineeringSitePlan.url, caption: "Site plan — overall layout and landscape integration" },
+    ],
+  },
 ];
+
 
 
 export const heroImage = livingRoomSofa.url;
