@@ -275,6 +275,15 @@ export const projects: Project[] = [
 ];
 
 export const heroImage = livingRoomSofa.url;
+export const heroSlideshow = [
+  livingRoomSofa.url,
+  engineeringExterior.url,
+  gundiLayoutV2.url,
+  manufacturing1.url,
+  sharonHall1.url,
+  farmhouse1.url,
+];
+
 
 export function getProject(slug: string) {
   return projects.find((p) => p.slug === slug);
