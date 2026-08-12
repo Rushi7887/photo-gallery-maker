@@ -16,9 +16,13 @@ import kitchen1 from "@/assets/interior/kitchen-1.png.asset.json";
 import livingRoomSofa from "@/assets/interior/living-room-sofa.png.asset.json";
 import kitchenDining from "@/assets/interior/kitchen-dining.png.asset.json";
 
+import commercial1 from "@/assets/commercial/commercial-1.png.asset.json";
+import commercial2 from "@/assets/commercial/commercial-2.png.asset.json";
+
 export const categories = [
   "Residential",
   "Industrial",
+  "Commercial",
   "Interior",
   "Landscaping",
 ] as const;
@@ -116,6 +120,24 @@ export const projects: Project[] = [
     gallery: [
       { src: workLandscape, caption: "Courtyard with still water body and uplit planting" },
       { src: workLandscape2, caption: "Stone steppers and layered shrub beds" },
+    ],
+  },
+  {
+    slug: "commercial-complex-chhatrapati-sambhajinagar",
+    index: "05",
+    title: "Commercial Complex",
+    category: "Commercial",
+    meta: "Commercial · Retail & Offices · Chhatrapati Sambhajinagar",
+    year: "2026",
+    location: "Chhatrapati Sambhajinagar",
+    status: "In progress",
+    scope: "Architecture · Commercial planning · Facade design",
+    summary:
+      "A modern commercial complex designed for high visibility and efficient retail flow. The facade uses a mix of glass and solid volumes to create a contemporary landmark while maximizing natural light for the upper-floor office spaces.",
+    cover: commercial1.url,
+    gallery: [
+      { src: commercial1.url, caption: "Front elevation — modern glass facade and retail frontage" },
+      { src: commercial2.url, caption: "Perspective view — corner plot utilization and signage zones" },
     ],
   },
 ];
