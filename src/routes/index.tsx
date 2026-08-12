@@ -53,7 +53,7 @@ function Index() {
         <div className="flex flex-wrap gap-x-8 gap-y-2 label-mono text-muted-foreground">
           <span>Architect</span>
           <span>Chhatrapati Sambhajinagar, Maharashtra, IN</span>
-          <span>Studio Portfolio 2026</span>
+          
         </div>
         <h1 className="mt-8 text-[15vw] leading-[0.85] font-black tracking-[-0.04em] md:text-[9rem]">
           Vedant
