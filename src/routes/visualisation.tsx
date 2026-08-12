@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { SiteFooter, SiteHeader } from "@/components/site-chrome";
 import { projects } from "@/data/projects";
+import { ChevronLeft, ChevronRight, X } from "lucide-react";
 
 export const Route = createFileRoute("/visualisation")({
   head: () => ({
@@ -119,25 +120,58 @@ function VisualisationPage() {
 
       {lightbox !== null && visualisationProject && (
         <div
-          className="fixed inset-0 z-[100] flex items-center justify-center bg-ink/95 p-4"
+          className="fixed inset-0 z-[100] flex items-center justify-center bg-ink/95 p-4 sm:p-8"
           role="dialog"
           aria-modal="true"
           onClick={() => setLightbox(null)}
         >
+          <button
+            type="button"
+            onClick={(e) => {
+              e.stopPropagation();
+              setLightbox((i) => (i === null ? null : (i - 1 + visualisationProject.gallery.length) % visualisationProject.gallery.length));
+            }}
+            className="absolute left-4 top-1/2 -translate-y-1/2 z-[110] rounded-full bg-background/10 p-3 text-ink-foreground backdrop-blur-sm transition-colors hover:bg-background/20 active:scale-95 sm:left-8"
+            aria-label="Previous image"
+          >
+            <ChevronLeft size={32} />
+          </button>
+
           <img
             src={visualisationProject.gallery[lightbox]?.src}
             alt={visualisationProject.gallery[lightbox]?.caption}
-            className="max-h-[85vh] w-auto max-w-full object-contain"
+            className="max-h-[85vh] w-auto max-w-full object-contain shadow-2xl transition-all duration-500 ease-in-out"
+            onClick={(e) => e.stopPropagation()}
           />
-          <p className="absolute bottom-6 left-1/2 -translate-x-1/2 label-mono text-ink-foreground">
-            {lightbox + 1} / {visualisationProject.gallery.length} — {visualisationProject.gallery[lightbox]?.caption}
-          </p>
+
+          <button
+            type="button"
+            onClick={(e) => {
+              e.stopPropagation();
+              setLightbox((i) => (i === null ? null : (i + 1) % visualisationProject.gallery.length));
+            }}
+            className="absolute right-4 top-1/2 -translate-y-1/2 z-[110] rounded-full bg-background/10 p-3 text-ink-foreground backdrop-blur-sm transition-colors hover:bg-background/20 active:scale-95 sm:right-8"
+            aria-label="Next image"
+          >
+            <ChevronRight size={32} />
+          </button>
+
+          <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-center" onClick={(e) => e.stopPropagation()}>
+            <p className="label-mono text-ink-foreground text-sm tracking-widest">
+              {lightbox + 1} / {visualisationProject.gallery.length}
+            </p>
+            <p className="label-mono text-ink-foreground/60 text-xs">
+              {visualisationProject.gallery[lightbox]?.caption}
+            </p>
+          </div>
+
           <button
             type="button"
             onClick={() => setLightbox(null)}
-            className="absolute top-5 right-5 label-mono text-ink-foreground"
+            className="absolute top-5 right-5 z-[110] rounded-full bg-background/10 p-3 text-ink-foreground backdrop-blur-sm transition-colors hover:bg-background/20 active:scale-95"
+            aria-label="Close lightbox"
           >
-            Close ✕
+            <X size={24} />
           </button>
         </div>
       )}
