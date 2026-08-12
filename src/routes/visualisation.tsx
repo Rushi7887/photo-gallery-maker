@@ -62,9 +62,9 @@ function VisualisationPage() {
           <span>Architectural Rendering</span>
         </div>
 
-        <h1 className="mt-8 text-5xl font-black tracking-tight md:text-8xl">
+        <h1 className="mt-8 text-5xl font-black tracking-tight md:text-8xl" style={{ color: '#954842' }}>
           Visualising<br />
-          <span className="text-muted-foreground">the Future.</span>
+          the Future.
         </h1>
 
         <div className="mt-12 grid gap-12 md:grid-cols-2 lg:gap-24">
