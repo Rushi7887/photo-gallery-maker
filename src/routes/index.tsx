@@ -34,24 +34,15 @@ const tools = [
   "Illustrator",
 ];
 
-type Filter = "All" | Category;
+type Filter = "All" | (typeof categories)[number];
 const filters: Filter[] = ["All", ...categories];
 
 function Index() {
   // Single source of truth for the selected tab — fixes the filter tab bug
   // where the highlighted tab and the visible list could get out of sync.
   const [active, setActive] = useState<Filter>("All");
-  const visible = active === "All" ? projects : projects.filter((p) => p.category === active);
-
-  useEffect(() => {
-    const handleSetFilter = (e: any) => {
-      if (filters.includes(e.detail)) {
-        setActive(e.detail);
-      }
-    };
-    window.addEventListener("set-filter", handleSetFilter);
-    return () => window.removeEventListener("set-filter", handleSetFilter);
-  }, []);
+  const visible = (active === "All" ? projects : projects.filter((p) => p.category === active))
+    .filter(p => p.category !== "3D Visualization");
 
   return (
     <div className="min-h-screen bg-background">
