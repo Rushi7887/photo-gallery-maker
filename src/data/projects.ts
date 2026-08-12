@@ -29,6 +29,12 @@ import engineeringExterior from "@/assets/industrial/industrial-exterior-perspec
 import engineeringLoading from "@/assets/industrial/industrial-loading-bay.png.asset.json";
 import engineeringSitePlan from "@/assets/industrial/industrial-site-plan.png.asset.json";
 
+// Gummidipoondi project assets
+import gundiLayout from "@/assets/industrial/gummidipoondi/master-layout.png.asset.json";
+import gundiView1 from "@/assets/industrial/gummidipoondi/view-01.webp.asset.json";
+import gundiView2 from "@/assets/industrial/gummidipoondi/view-02.webp.asset.json";
+import gundiView3 from "@/assets/industrial/gummidipoondi/view-03.png.asset.json";
+
 
 
 export const categories = [
