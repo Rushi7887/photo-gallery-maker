@@ -22,6 +22,9 @@ import farmhouse1 from "@/assets/residential/farmhouse-1.png.asset.json";
 import farmhouse2 from "@/assets/residential/farmhouse-2.png.asset.json";
 import manufacturing1 from "@/assets/industrial/manufacturing-1.png.asset.json";
 import manufacturing2 from "@/assets/industrial/manufacturing-2.png.asset.json";
+import advancedPlant1 from "@/assets/industrial/advanced-plant-1.png.asset.json";
+import advancedPlant2 from "@/assets/industrial/advanced-plant-2.png.asset.json";
+
 
 export const categories = [
   "Residential",
