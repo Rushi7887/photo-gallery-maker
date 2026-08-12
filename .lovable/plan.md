@@ -1,27 +1,14 @@
-# Plan: Add Next/Previous Navigation to 3D Visualisation Lightbox
+# Plan: Align Home Page Hero with Reference Design
 
-The user wants to add "next" and "previous" buttons to the lightbox in the 3D Visualisation page to make the images "slidable" (clickable navigation).
+Update the home page hero section to match the uploaded design reference (file-57), focusing on typography, layout, and a small visual accent.
 
-## Proposed Changes
+## User-facing changes
+- **Hero Title Update**: Change the hero heading to "Vedant Nalawade Architects." with a distinct red dot at the end.
+- **Top Metadata Layout**: Ensure the labels for "Architect" and location are appropriately styled above the title.
+- **Description Update**: Refine the introductory text to match the reference: "Residential, industrial, interior and landscaping design — drawn with discipline, built with material honesty and made for the way people actually live and work."
 
-### 1. `src/routes/visualisation.tsx`
-- Add "Next" and "Previous" navigation buttons to the lightbox overlay.
-- Ensure the buttons are accessible and styled consistently with the dark architectural theme.
-- Add click handlers to transition between images in the gallery.
-
-### 2. `src/routes/projects.$slug.tsx` (For consistency)
-- Apply the same "Next" and "Previous" buttons to the project details lightbox for a unified experience across the site.
-
-## Technical Details
-- Use absolute positioning for the navigation buttons (left/right sides of the screen).
-- Use icons or simple text (e.g., "←" and "→") that fit the minimalist aesthetic.
-- Buttons should prevent event propagation to avoid closing the lightbox when clicked (since the overlay itself has a `setLightbox(null)` click handler).
-
-## Verification Plan
-- **Manual Verification**:
-    - Open the 3D Visualisation page and click an image.
-    - Click the "Next" button and verify it shows the next image.
-    - Click the "Previous" button and verify it shows the previous image.
-    - Repeat the same for a project details page.
-- **Automated Verification**:
-    - Run `bun run build` to ensure no build regressions.
+## Technical details
+- **File**: `src/routes/index.tsx`
+- **Typography**: The heading will be styled with `font-black` and a tracking value to match the reference's tight letter spacing.
+- **Visual Accent**: Add a `span` with a specific background color (`bg-[#b85c4a]` or similar) to the period at the end of the title.
+- **Layout**: Adjust margins and text sizes to match the bold architectural aesthetic in the screenshot.
