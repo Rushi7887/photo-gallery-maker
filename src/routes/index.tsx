@@ -41,6 +41,15 @@ function Index() {
   // Single source of truth for the selected tab — fixes the filter tab bug
   // where the highlighted tab and the visible list could get out of sync.
   const [active, setActive] = useState<Filter>("All");
+  const [currentHeroIndex, setCurrentHeroIndex] = useState(0);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrentHeroIndex((prev) => (prev + 1) % heroSlideshow.length);
+    }, 5000);
+    return () => clearInterval(timer);
+  }, []);
+
   const visible = (active === "All" ? projects : projects.filter((p) => p.category === active))
     .filter(p => p.category !== "3D Visualization");
 
@@ -66,18 +75,24 @@ function Index() {
           discipline, built with material honesty and made for the way people actually
           live and work.
         </p>
-        <figure className="mt-12">
-          <img
-            src={heroImage}
-            alt="Teak & Travertine Apartment living area — custom sofa and warm lighting"
-            width={1600}
-            height={1100}
-            className="aspect-[16/10] w-full object-cover"
-          />
-          <figcaption className="mt-3 label-mono text-muted-foreground">
-            Interior — Teak & Travertine Apartment
-          </figcaption>
-        </figure>
+        <div className="mt-12 overflow-hidden relative group">
+          <div className="aspect-[16/10] w-full relative">
+            {heroSlideshow.map((img, idx) => (
+              <img
+                key={img}
+                src={img}
+                alt="Architectural visualization"
+                className={`absolute inset-0 h-full w-full object-cover transition-opacity duration-1000 ${
+                  idx === currentHeroIndex ? "opacity-100" : "opacity-0"
+                }`}
+              />
+            ))}
+          </div>
+          <div className="mt-3 flex justify-between items-center label-mono text-muted-foreground">
+            <span>Portfolio Highlights</span>
+            <span>0{currentHeroIndex + 1} / 0{heroSlideshow.length}</span>
+          </div>
+        </div>
       </section>
 
 
