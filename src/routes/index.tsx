@@ -63,7 +63,10 @@ function Index() {
           <span>Architect</span>
           <span>Chhatrapati Sambhajinagar, Maharashtra, IN</span>
         </div>
-        <h1 className="mt-8 text-[15vw] leading-[0.85] font-black tracking-[-0.05em] md:text-[9.5rem]">
+        <h1 
+          className="mt-8 text-[15vw] leading-[0.85] font-black tracking-[-0.05em] md:text-[9.5rem]"
+          style={{ color: '#954842' }}
+        >
           Ar. Vedant
           <br />
           Nalawade
