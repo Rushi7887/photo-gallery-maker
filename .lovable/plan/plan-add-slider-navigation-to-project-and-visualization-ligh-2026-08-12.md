@@ -1,6 +1,6 @@
 # Plan: Add Slider Navigation to Project and Visualization Lightboxes
 
-The user wants to add slider navigation (Next/Previous buttons) to the images in the lightboxes for both the Project Detail page and the 3D Visualization page.
+The user wants to add slider navigation (Next/Previous buttons) to the images in the lightboxes for both the Project Detail page and the 3D Visualization page. only 3D visualisation page
 
 ## User Review Required
 
@@ -10,11 +10,13 @@ The user wants to add slider navigation (Next/Previous buttons) to the images in
 ## Proposed Changes
 
 ### Project Detail Page (`src/routes/projects.$slug.tsx`)
+
 - Import `ChevronLeft` and `ChevronRight` from `lucide-react`.
 - Update the lightbox UI to include fixed "Next" and "Previous" buttons.
 - Ensure the buttons stop propagation of click events to prevent the lightbox from closing.
 
 ### Visualization Page (`src/routes/visualisation.tsx`)
+
 - Import `ChevronLeft` and `ChevronRight` from `lucide-react`.
 - Update the lightbox UI to include fixed "Next" and "Previous" buttons.
 - Ensure the buttons stop propagation of click events.
@@ -26,4 +28,5 @@ The user wants to add slider navigation (Next/Previous buttons) to the images in
 - Style the buttons with hover effects to match the dark architectural theme.
 
 ## Alternative Considerations
-- We could implement a full swiper/slider library, but since we already have a robust lightbox with keyboard navigation, adding explicit buttons is more efficient and maintains the current lightweight architecture.
+
+- We could implement a full swiper/slider library, but since we already have a robust lightbox with keyboard navigation, adding explicit buttons is more efficient and maintains the current lightweight architecture.  
