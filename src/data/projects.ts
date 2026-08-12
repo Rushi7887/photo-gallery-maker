@@ -35,7 +35,7 @@ import gundiView1 from "@/assets/industrial/gummidipoondi/view-01.webp.asset.jso
 import gundiView2 from "@/assets/industrial/gummidipoondi/view-02.webp.asset.json";
 import gundiView3 from "@/assets/industrial/gummidipoondi/view-03.png.asset.json";
 
-// Religious project assets
+// Other project assets
 import sharonHall1 from "@/assets/religious/sharon-hall-1.png.asset.json";
 import sharonHall2 from "@/assets/religious/sharon-hall-2.png.asset.json";
 
@@ -43,7 +43,7 @@ export const categories = [
   "Residential",
   "Industrial",
   "Commercial",
-  "Religious",
+  "Others",
   "Interior",
   "Landscaping",
 ] as const;
@@ -204,8 +204,8 @@ export const projects: Project[] = [
     slug: "sharon-prayer-hall",
     index: "08",
     title: "Sharon Prayer Hall",
-    category: "Religious",
-    meta: "Religious · Prayer Hall · Chhatrapati Sambhajinagar",
+    category: "Others",
+    meta: "Other · Prayer Hall · Chhatrapati Sambhajinagar",
     year: "2026",
     location: "Bhimnagar Bhawsingpura, Chhatrapati Sambhajinagar",
     status: "In progress",
