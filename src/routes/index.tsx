@@ -189,7 +189,7 @@ function Index() {
               type="button"
               onClick={() => {
                 setActive(c);
-                document.getElementById("works")?.scrollIntoView({ behavior: "smooth" });
+                document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" });
               }}
               className="bg-secondary p-6 text-left transition-colors hover:bg-background"
             >
