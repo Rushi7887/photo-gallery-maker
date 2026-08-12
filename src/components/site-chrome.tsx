@@ -43,7 +43,7 @@ export function SiteHeader() {
 
 export function SiteFooter() {
   return (
-    <footer id="contact" className="bg-ink text-ink-foreground">
+    <footer id="contact" className="text-white" style={{ backgroundColor: '#954842' }}>
       <div className="mx-auto max-w-[1400px] px-5 py-16 md:px-10 md:py-24">
         <p className="label-mono opacity-60">Got a project in mind?</p>
         <h2 className="mt-4 text-5xl font-black tracking-tight md:text-8xl">Let's Build</h2>
