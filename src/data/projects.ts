@@ -56,7 +56,6 @@ export const categories = [
   "Commercial",
   "Others",
   "Interior",
-  "3D Visualization",
 ] as const;
 
 export type Category = (typeof categories)[number];
