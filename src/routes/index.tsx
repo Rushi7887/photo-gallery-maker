@@ -64,7 +64,8 @@ function Index() {
           <span>Chhatrapati Sambhajinagar, Maharashtra, IN</span>
         </div>
         <h1 
-          className="mt-8 text-[15vw] leading-[0.85] font-black tracking-[-0.05em] md:text-[9.5rem] text-foreground"
+          className="mt-8 text-[15vw] leading-[0.85] font-black tracking-[-0.05em] md:text-[9.5rem]"
+          style={{ color: '#954842' }}
         >
           Ar. Vedant
           <br />
@@ -72,7 +73,7 @@ function Index() {
           <br />
           Architects<span className="inline-block ml-1 h-[0.12em] w-[0.12em] bg-[#b85c4a]"></span>
         </h1>
-        <p className="mt-12 max-w-2xl text-lg leading-relaxed text-foreground/80 md:text-xl">
+        <p className="mt-12 max-w-2xl text-lg leading-relaxed text-[#666] md:text-xl">
           Residential, industrial, interior and landscaping design — drawn with
           discipline, built with material honesty and made for the way people actually
           live and work.
@@ -107,7 +108,7 @@ function Index() {
             </h2>
             <a
               href="#contact"
-              className="label-mono border border-foreground px-5 py-3 transition-colors hover:bg-foreground hover:text-background"
+              className="label-mono border border-foreground px-5 py-3 transition-colors hover:bg-ink hover:text-ink-foreground"
             >
               Enquire about a project
             </a>
@@ -129,7 +130,7 @@ function Index() {
                   className={
                     "label-mono border px-4 py-2.5 transition-colors " +
                     (isActive
-                      ? "border-foreground bg-foreground text-background"
+                      ? "border-ink bg-ink text-ink-foreground"
                       : "border-border text-muted-foreground hover:border-foreground hover:text-foreground")
                   }
                 >
