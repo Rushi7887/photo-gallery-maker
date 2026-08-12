@@ -197,6 +197,24 @@ export const projects: Project[] = [
       { src: engineeringSitePlan.url, caption: "Site plan — overall layout and landscape integration" },
     ],
   },
+  {
+    slug: "sharon-prayer-hall",
+    index: "08",
+    title: "Sharon Prayer Hall",
+    category: "Religious",
+    meta: "Religious · Prayer Hall · Chhatrapati Sambhajinagar",
+    year: "2026",
+    location: "Bhimnagar Bhawsingpura, Chhatrapati Sambhajinagar",
+    status: "In progress",
+    scope: "Architecture · Modern Facade · Lighting Design",
+    summary:
+      "A contemporary prayer hall featuring a serene white facade accented with navy blue framing. The design incorporates tiered architectural volumes and prominent illuminated signage, creating a landmark of tranquility in the neighborhood.",
+    cover: sharonHall1.url,
+    gallery: [
+      { src: sharonHall1.url, caption: "Main elevation — contemporary form with illuminated cross" },
+      { src: sharonHall2.url, caption: "Alternative perspective — night view and lighting integration" },
+    ],
+  },
 ];
 
 
