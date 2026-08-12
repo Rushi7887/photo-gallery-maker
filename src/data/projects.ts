@@ -52,27 +52,8 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    slug: "shankara-residency-villa",
-    index: "01",
-    title: "Shankara Residency Villa",
-    category: "Residential",
-    meta: "Residential · 4 BHK · Ulkanagari, Chhatrapati Sambhajinagar",
-    year: "2025",
-    location: "Ulkanagari, Chhatrapati Sambhajinagar",
-    status: "Completed",
-    scope: "Architecture · Structure coordination · Site supervision",
-    summary:
-      "A four-bedroom family villa planned around a north-lit courtyard. Deep balconies and a stone plinth keep the interiors cool through the Marathwada summer, while the plan keeps living, guest and private zones cleanly separated.",
-    cover: workResidence,
-    gallery: [
-      { src: workResidence, caption: "Street elevation — plaster, stone plinth and deep balconies" },
-      { src: workResidence2, caption: "Double-height living volume with stone feature wall" },
-      { src: heroBuilding, caption: "Brick jaali screen study for the west facade" },
-    ],
-  },
-  {
     slug: "farmhouse-gangapur",
-    index: "02",
+    index: "01",
     title: "Farmhouse — Gangapur",
     category: "Residential",
     meta: "Residential · Weekend Home · Gangapur",
@@ -89,26 +70,8 @@ export const projects: Project[] = [
     ],
   },
   {
-    slug: "fabrication-unit-waluj",
-    index: "03",
-    title: "Fabrication Unit — Waluj",
-    category: "Industrial",
-    meta: "Industrial · 42,000 sq.ft · Shed, offices & site planning",
-    year: "2024",
-    location: "Waluj MIDC, Chhatrapati Sambhajinagar",
-    status: "Completed",
-    scope: "Master planning · PEB coordination · Office block",
-    summary:
-      "A 42,000 sq.ft fabrication shed with a mezzanine office block. Bay spacing, crane paths and truck movement were resolved first; roof monitors bring daylight deep into the shop floor and cut lighting load through the day.",
-    cover: workIndustrial,
-    gallery: [
-      { src: workIndustrial, caption: "Main shed — steel portal frame and metal cladding" },
-      { src: workIndustrial2, caption: "Shop floor with mezzanine office glazing" },
-    ],
-  },
-  {
     slug: "manufacturing-unit-chhatrapati-sambhajinagar",
-    index: "04",
+    index: "02",
     title: "Manufacturing Unit",
     category: "Industrial",
     meta: "Industrial · Production Facility · Chhatrapati Sambhajinagar",
@@ -126,7 +89,7 @@ export const projects: Project[] = [
   },
   {
     slug: "teak-travertine-apartment",
-    index: "06",
+    index: "03",
     title: "Teak & Travertine Apartment",
     category: "Interior",
     meta: "Interior · Turnkey · Living, dining & master suite",
@@ -148,7 +111,7 @@ export const projects: Project[] = [
   },
   {
     slug: "courtyard-garden-plot-215",
-    index: "06",
+    index: "04",
     title: "Courtyard Garden — Plot 215",
     category: "Landscaping",
     meta: "Landscaping · Hardscape, water body & planting design",
@@ -166,7 +129,7 @@ export const projects: Project[] = [
   },
   {
     slug: "commercial-complex-chhatrapati-sambhajinagar",
-    index: "07",
+    index: "05",
     title: "Commercial Complex",
     category: "Commercial",
     meta: "Commercial · Retail & Offices · Chhatrapati Sambhajinagar",
