@@ -6,17 +6,17 @@ import { categories, heroImage, heroSlideshow, projects, type Category } from "@
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "VN Architects — Vedant Nalawade, Architect" },
+      { title: "VN Architects — Ar. Vedant Nalawade, Architect" },
       {
         name: "description",
         content:
-          "VN Architects designs residential, industrial, interior and landscaping projects in Chhatrapati Sambhajinagar. Selected works by architect Vedant Nalawade.",
+          "VN Architects designs residential, industrial, interior and landscaping projects in Chhatrapati Sambhajinagar. Selected works by Ar. Vedant Nalawade.",
       },
-      { property: "og:title", content: "VN Architects — Vedant Nalawade, Architect" },
+      { property: "og:title", content: "VN Architects — Ar. Vedant Nalawade, Architect" },
       {
         property: "og:description",
         content:
-          "Residential · Industrial · Interior · Landscaping. Selected works from the studio of Vedant Nalawade.",
+          "Residential · Industrial · Interior · Landscaping. Selected works from the studio of Ar. Vedant Nalawade.",
       },
     ],
   }),
@@ -64,7 +64,7 @@ function Index() {
           <span>Chhatrapati Sambhajinagar, Maharashtra, IN</span>
         </div>
         <h1 className="mt-8 text-[15vw] leading-[0.85] font-black tracking-[-0.05em] md:text-[9.5rem]">
-          Vedant
+          Ar. Vedant
           <br />
           Nalawade
           <br />
