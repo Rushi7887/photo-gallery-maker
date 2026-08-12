@@ -86,7 +86,7 @@ export const projects: Project[] = [
     meta: "Interior · Turnkey · Living, dining & master suite",
     year: "2025",
     location: "Chhatrapati Sambhajinagar",
-    status: "Completed",
+    status: "In progress",
     scope: "Turnkey interior · Furniture design · Lighting",
     summary:
       "A turnkey apartment interior built on two materials — teak veneer and travertine. Joinery runs floor to ceiling to hide services, and the lighting is layered so the same rooms read differently by day and at night.",
