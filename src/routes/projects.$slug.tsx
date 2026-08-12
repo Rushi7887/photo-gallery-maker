@@ -141,12 +141,12 @@ function ProjectPage() {
           onClick={() => setLightbox(null)}
         >
           <img
-            src={project.gallery[lightbox].src}
-            alt={project.gallery[lightbox].caption}
+            src={project.gallery[lightbox]?.src}
+            alt={project.gallery[lightbox]?.caption}
             className="max-h-[85vh] w-auto max-w-full object-contain"
           />
           <p className="absolute bottom-6 left-1/2 -translate-x-1/2 label-mono text-ink-foreground">
-            {lightbox + 1} / {project.gallery.length} — {project.gallery[lightbox].caption}
+            {lightbox + 1} / {project.gallery.length} — {project.gallery[lightbox]?.caption}
           </p>
           <button
             type="button"

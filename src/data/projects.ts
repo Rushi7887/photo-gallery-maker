@@ -8,6 +8,14 @@ import workInterior2 from "@/assets/work-interior-2.jpg";
 import workLandscape from "@/assets/work-landscape.jpg";
 import workLandscape2 from "@/assets/work-landscape-2.jpg";
 
+// Interior project assets
+import washBasin from "@/assets/interior/wash-basin.png.asset.json";
+import bedRoom from "@/assets/interior/bed-room.png.asset.json";
+import livingRoomStairs from "@/assets/interior/living-room-stairs.png.asset.json";
+import kitchen1 from "@/assets/interior/kitchen-1.png.asset.json";
+import livingRoomSofa from "@/assets/interior/living-room-sofa.png.asset.json";
+import kitchenDining from "@/assets/interior/kitchen-dining.png.asset.json";
+
 export const categories = [
   "Residential",
   "Industrial",
@@ -82,10 +90,14 @@ export const projects: Project[] = [
     scope: "Turnkey interior · Furniture design · Lighting",
     summary:
       "A turnkey apartment interior built on two materials — teak veneer and travertine. Joinery runs floor to ceiling to hide services, and the lighting is layered so the same rooms read differently by day and at night.",
-    cover: workInterior,
+    cover: livingRoomSofa.url,
     gallery: [
-      { src: workInterior, caption: "Living room — full-height teak joinery wall" },
-      { src: workInterior2, caption: "Master suite with teak headboard panelling" },
+      { src: livingRoomSofa.url, caption: "Living area — custom sofa and warm ambient lighting" },
+      { src: livingRoomStairs.url, caption: "Living room and staircase with wood and glass details" },
+      { src: kitchen1.url, caption: "Modular kitchen with integrated storage and pooja area" },
+      { src: kitchenDining.url, caption: "Dining and pantry zone with seamless cabinetry" },
+      { src: bedRoom.url, caption: "Master bedroom with wood panelling and soft textures" },
+      { src: washBasin.url, caption: "Vanity area with fluted wall tiles and circular mirror" },
     ],
   },
   {
@@ -108,7 +120,7 @@ export const projects: Project[] = [
   },
 ];
 
-export const heroImage = heroBuilding;
+export const heroImage = livingRoomSofa.url;
 
 export function getProject(slug: string) {
   return projects.find((p) => p.slug === slug);
