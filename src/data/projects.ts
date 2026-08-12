@@ -126,7 +126,7 @@ export const projects: Project[] = [
   },
   {
     slug: "teak-travertine-apartment",
-    index: "05",
+    index: "06",
     title: "Teak & Travertine Apartment",
     category: "Interior",
     meta: "Interior · Turnkey · Living, dining & master suite",
