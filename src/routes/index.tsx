@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { SiteFooter, SiteHeader } from "@/components/site-chrome";
 import { categories, heroImage, projects, type Category } from "@/data/projects";
 
@@ -42,6 +42,16 @@ function Index() {
   // where the highlighted tab and the visible list could get out of sync.
   const [active, setActive] = useState<Filter>("All");
   const visible = active === "All" ? projects : projects.filter((p) => p.category === active);
+
+  useEffect(() => {
+    const handleSetFilter = (e: any) => {
+      if (filters.includes(e.detail)) {
+        setActive(e.detail);
+      }
+    };
+    window.addEventListener("set-filter", handleSetFilter);
+    return () => window.removeEventListener("set-filter", handleSetFilter);
+  }, []);
 
   return (
     <div className="min-h-screen bg-background">

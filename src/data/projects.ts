@@ -40,6 +40,15 @@ import gundiView3 from "@/assets/industrial/gummidipoondi/view-03.png.asset.json
 import sharonHall1 from "@/assets/religious/sharon-hall-1.png.asset.json";
 import sharonHall2 from "@/assets/religious/sharon-hall-2.png.asset.json";
 import sharonHallPlan from "@/assets/religious/sharon-hall-plan.png.asset.json";
+import apartmentExt1 from "@/assets/3d/apartment-ext-1.png.asset.json";
+import complexAerial from "@/assets/3d/complex-aerial.png.asset.json";
+import apartmentExt2 from "@/assets/3d/apartment-ext-2.png.asset.json";
+import urbanComplexAerial from "@/assets/3d/urban-complex-aerial.png.asset.json";
+import modernApartment from "@/assets/3d/modern-apartment.png.asset.json";
+import luxuryBedroom from "@/assets/3d/luxury-bedroom.png.asset.json";
+import entranceNight from "@/assets/3d/entrance-night.png.asset.json";
+import villaNight from "@/assets/3d/villa-night.png.asset.json";
+import commercialModern from "@/assets/3d/commercial-modern.png.asset.json";
 
 export const categories = [
   "Residential",
@@ -47,6 +56,7 @@ export const categories = [
   "Commercial",
   "Others",
   "Interior",
+  "3D Visualization",
 ] as const;
 
 export type Category = (typeof categories)[number];
@@ -219,6 +229,31 @@ export const projects: Project[] = [
     gallery: [
       { src: farmhouse1.url, caption: "Main elevation — contemporary form with large openings" },
       { src: farmhouse2.url, caption: "Perspective view — integration with the landscape" },
+    ],
+  },
+  {
+    slug: "3d-visualization-portfolio",
+    index: "09",
+    title: "3D Visualization Portfolio",
+    category: "3D Visualization",
+    meta: "3D Visualization · Architectural Rendering · Interior & Exterior",
+    year: "2026",
+    location: "Various Locations",
+    status: "Completed",
+    scope: "3D Modelling · Texturing · Lighting · Photo-realistic Rendering",
+    summary:
+      "A comprehensive showcase of high-end architectural visualizations, ranging from sprawling residential complexes and commercial landmarks to intimate luxury interiors. Our 3D workflow focuses on atmospheric lighting, material honesty, and spatial clarity to help clients visualize their projects before a single brick is laid.",
+    cover: apartmentExt1.url,
+    gallery: [
+      { src: apartmentExt1.url, caption: "Exterior Visualization — Multi-storey residential building" },
+      { src: complexAerial.url, caption: "Aerial View — Large scale residential development" },
+      { src: apartmentExt2.url, caption: "Perspective View — Contemporary apartment architecture" },
+      { src: urbanComplexAerial.url, caption: "Urban Planning — High-density complex visualization" },
+      { src: modernApartment.url, caption: "Modern Apartment — Clean lines and structural clarity" },
+      { src: luxuryBedroom.url, caption: "Interior Visualization — Luxury bedroom with teak accents" },
+      { src: entranceNight.url, caption: "Night View — Entrance canopy and lighting design" },
+      { src: villaNight.url, caption: "Residential Night View — Contemporary villa lighting" },
+      { src: commercialModern.url, caption: "Commercial Perspective — Glass-fronted retail complex" },
     ],
   },
 ];
