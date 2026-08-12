@@ -4,7 +4,8 @@ export function SiteHeader() {
   const items = [
     { n: "01", label: "Index", hash: "" },
     { n: "02", label: "Works", hash: "works" },
-    { n: "03", label: "Contact", hash: "contact" },
+    { n: "03", label: "3D Visualisation", hash: "works" }, // Scrolls to works, user can select the tab
+    { n: "04", label: "Contact", hash: "contact" },
   ];
 
   return (
