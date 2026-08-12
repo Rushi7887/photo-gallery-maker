@@ -2,10 +2,10 @@ import { Link } from "@tanstack/react-router";
 
 export function SiteHeader() {
   const items = [
-    { n: "01", label: "Index", hash: "" },
-    { n: "02", label: "Works", hash: "works" },
-    { n: "03", label: "3D Visualisation", hash: "works" }, // Scrolls to works, user can select the tab
-    { n: "04", label: "Contact", hash: "contact" },
+    { n: "01", label: "Index", to: "/", hash: "" },
+    { n: "02", label: "Works", to: "/", hash: "works" },
+    { n: "03", label: "3D Visualisation", to: "/visualisation", hash: "" },
+    { n: "04", label: "Contact", to: "/", hash: "contact" },
   ];
 
   return (
@@ -24,17 +24,9 @@ export function SiteHeader() {
           {items.map((it) => (
             <Link
               key={it.label}
-              to="/"
+              to={it.to}
               hash={it.hash}
               className="group flex items-baseline gap-1.5 text-sm text-foreground transition-colors hover:text-accent"
-              onClick={() => {
-                if (it.label === "3D Visualisation") {
-                  // Small delay to ensure navigation/scroll happens first
-                  setTimeout(() => {
-                    window.dispatchEvent(new CustomEvent("set-filter", { detail: "3D Visualization" }));
-                  }, 100);
-                }
-              }}
             >
               <span className="label-mono text-muted-foreground group-hover:text-accent">
                 {it.n}

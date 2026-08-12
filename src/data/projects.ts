@@ -56,10 +56,9 @@ export const categories = [
   "Commercial",
   "Others",
   "Interior",
-  "3D Visualization",
 ] as const;
 
-export type Category = (typeof categories)[number];
+export type Category = (typeof categories)[number] | "3D Visualization";
 
 export type Project = {
   slug: string;
