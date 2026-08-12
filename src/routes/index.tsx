@@ -67,9 +67,7 @@ function Index() {
           className="mt-8 text-[15vw] leading-[0.85] font-black tracking-[-0.05em] md:text-[9.5rem] uppercase"
           style={{ color: '#954842' }}
         >
-          Ar. Vedant
-          <br />
-          Nalawade
+          VN
           <br />
           Architects.
         </h1>
