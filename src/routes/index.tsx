@@ -79,25 +79,25 @@ function Index() {
         </figure>
       </section>
 
-      {/* Tools marquee */}
-      <div className="border-y border-border bg-secondary">
-        <div className="mx-auto flex max-w-[1400px] flex-wrap gap-x-10 gap-y-3 px-5 py-4 md:px-10">
+      {/* Manifesto Section with Tools header */}
+      <section id="about" className="mx-auto max-w-[1400px] scroll-mt-24 px-5 pt-16 pb-20 md:px-10 md:pt-24 md:pb-28">
+        {/* Tools row as seen in reference image */}
+        <div className="mb-16 flex flex-wrap gap-x-8 gap-y-3 border-y border-border/40 bg-secondary/30 px-6 py-4 md:gap-x-12">
           {tools.map((t) => (
-            <span key={t} className="label-mono text-muted-foreground">
+            <span key={t} className="label-mono text-[10px] font-medium tracking-widest text-muted-foreground uppercase">
               {t}
             </span>
           ))}
         </div>
-      </div>
 
-      {/* Manifesto */}
-      <section id="about" className="mx-auto max-w-[1400px] scroll-mt-24 px-5 py-20 md:px-10 md:py-28">
-        <p className="label-mono text-accent">Ch. 01 — Manifesto</p>
-        <blockquote className="mt-8 max-w-4xl text-2xl leading-snug font-semibold tracking-tight md:text-5xl">
+        <p className="label-mono text-xs tracking-[0.2em] text-accent uppercase">Ch. 01 — Manifesto</p>
+        <blockquote className="mt-8 max-w-5xl text-3xl leading-[1.15] font-semibold tracking-[-0.02em] md:text-6xl">
           “Every plot has a logic of its own — light, wind, road and family. Our work is to listen
           first, <span className="text-accent">then draw a building that belongs there</span>.”
         </blockquote>
-        <p className="mt-6 label-mono text-muted-foreground">— Vedant Nalawade, V.N.</p>
+        <p className="mt-8 label-mono text-xs tracking-widest text-muted-foreground">
+          — VEDANT NALAWADE, V.N.
+        </p>
       </section>
 
       {/* Works */}
