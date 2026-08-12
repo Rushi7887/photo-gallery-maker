@@ -129,7 +129,7 @@ export const projects: Project[] = [
   {
     slug: "manufacturing-unit-gummidipoondi",
     index: "03",
-    title: "Manufacturing Unit — Gummidipoondi",
+    title: "03.Manufacturing Unit — Tamil Nadu",
     category: "Industrial",
     meta: "Industrial · Manufacturing Facility · Gummidipoondi",
     year: "2026",
