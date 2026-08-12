@@ -31,6 +31,7 @@ import engineeringSitePlan from "@/assets/industrial/industrial-site-plan.png.as
 
 // Gummidipoondi project assets
 import gundiLayout from "@/assets/industrial/gummidipoondi/master-layout.png.asset.json";
+import gundiLayoutV2 from "@/assets/industrial/gummidipoondi/master-layout-v2.png.asset.json";
 import gundiView1 from "@/assets/industrial/gummidipoondi/view-01.webp.asset.json";
 import gundiView2 from "@/assets/industrial/gummidipoondi/view-02.webp.asset.json";
 import gundiView3 from "@/assets/industrial/gummidipoondi/view-03.png.asset.json";
@@ -119,9 +120,10 @@ export const projects: Project[] = [
     scope: "Architecture · Master Planning · Industrial Design",
     summary:
       "A sophisticated industrial manufacturing facility in Gummidipoondi, planned for maximum efficiency and site utilization. The design features a comprehensive master layout that integrates production zones, logistics, and administrative areas.",
-    cover: gundiView3.url,
+    cover: gundiLayoutV2.url,
     gallery: [
-      { src: gundiLayout.url, caption: "Master Layout — site planning and logistics flow" },
+      { src: gundiLayoutV2.url, caption: "Master Layout — Site planning and logistics flow" },
+      { src: gundiLayout.url, caption: "Technical Layout — logistics flow details" },
       { src: gundiView1.url, caption: "Aerial view — site integration and roof planning" },
       { src: gundiView2.url, caption: "Perspective view — industrial facade and warehouse layout" },
       { src: gundiView3.url, caption: "Main elevation — contemporary industrial architecture" },
