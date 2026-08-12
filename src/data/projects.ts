@@ -107,8 +107,26 @@ export const projects: Project[] = [
     ],
   },
   {
-    slug: "teak-travertine-apartment",
+    slug: "manufacturing-unit-chhatrapati-sambhajinagar",
     index: "04",
+    title: "Manufacturing Unit",
+    category: "Industrial",
+    meta: "Industrial · Production Facility · Chhatrapati Sambhajinagar",
+    year: "2026",
+    location: "Chhatrapati Sambhajinagar",
+    status: "In progress",
+    scope: "Architecture · Structural Design · Industrial Planning",
+    summary:
+      "A large-scale manufacturing unit designed for optimized production flow and structural durability. The design integrates high-span steel structures with natural ventilation and daylighting to create an efficient and comfortable industrial environment.",
+    cover: manufacturing1.url,
+    gallery: [
+      { src: manufacturing1.url, caption: "Industrial frontage — optimized for logistics and production" },
+      { src: manufacturing2.url, caption: "Structural view — high-span steel framework" },
+    ],
+  },
+  {
+    slug: "teak-travertine-apartment",
+    index: "05",
     title: "Teak & Travertine Apartment",
     category: "Interior",
     meta: "Interior · Turnkey · Living, dining & master suite",
