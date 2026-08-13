@@ -181,9 +181,9 @@ export const projects: Project[] = [
     year: "2026",
     location: "Bhimnagar Bhawsingpura, Chhatrapati Sambhajinagar",
     status: "In progress",
-    scope: "Architecture · Modern Facade · Lighting Design",
+    scope: "Architectural Planning & Elevation Development",
     summary:
-      "A contemporary prayer hall featuring a serene white facade accented with navy blue framing. The design incorporates tiered architectural volumes and prominent illuminated signage, creating a landmark of tranquility in the neighborhood.",
+      "The Sharon Prayer Hall is a thoughtfully designed church project that responds to existing site conditions while addressing the congregation's need for increased seating capacity, enhanced spatial functionality, and an aesthetically compelling elevation—all within defined budget parameters.",
     cover: sharonHall1.url,
     gallery: [
       { src: sharonHall1.url, caption: "Main elevation — contemporary form with illuminated cross" },
