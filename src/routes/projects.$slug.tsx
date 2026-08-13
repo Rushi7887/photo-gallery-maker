@@ -111,7 +111,7 @@ function ProjectPage() {
                 aria-label={`Open photo ${i + 1} full size`}
               >
                 <img
-                  src={img.src}
+                  src={img.src || ""}
                   alt={`${project.title} — ${img.caption}`}
                   loading={i === 0 ? "eager" : "lazy"}
                   width={1400}

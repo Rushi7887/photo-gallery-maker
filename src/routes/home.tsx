@@ -154,7 +154,7 @@ function Index() {
               >
                 <div className="overflow-hidden bg-secondary">
                   <img
-                    src={p.cover}
+                    src={p.cover || ""}
                     alt={p.title}
                     loading="lazy"
                     width={1400}
