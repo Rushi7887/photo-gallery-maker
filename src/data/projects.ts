@@ -157,15 +157,15 @@ export const projects: Project[] = [
   {
     slug: "manufacturing-unit-chhatrapati-sambhajinagar",
     index: "04",
-    title: "Manufacturing Unit",
+    title: "Phase 2 Manufacturing Unit Extension",
     category: "Industrial",
-    meta: "Industrial · Production Facility · Chhatrapati Sambhajinagar",
+    meta: "Industrial · Phase 2 Extension · Chhatrapati Sambhajinagar",
     year: "2026",
     location: "Chhatrapati Sambhajinagar",
-    status: "In progress",
-    scope: "Architecture · Structural Design · Industrial Planning",
+    status: "Proposed",
+    scope: "Architectural Planning & Design Services",
     summary:
-      "A large-scale manufacturing unit designed for optimized production flow and structural durability. The design integrates high-span steel structures with natural ventilation and daylighting to create an efficient and comfortable industrial environment.",
+      "This proposed Phase 2 extension introduces a 50×60 meter industrial shed designed to expand manufacturing capacity within the MIDC zone. The facility integrates mezzanine flooring, dedicated utility platforms, and optimized docking areas to support seamless production workflows and material handling operations.",
     cover: manufacturing1.url,
     gallery: [
       { src: manufacturing1.url, caption: "Industrial frontage — optimized for logistics and production" },
