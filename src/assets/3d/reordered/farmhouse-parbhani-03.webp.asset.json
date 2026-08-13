@@ -1,11 +1,10 @@
 {
   "version": 1,
-  "asset_id": "51393a59-c7c1-4db8-b7ff-bd1c2ce04841",
+  "asset_id": "a51393a5-c7c1-4db8-b7ff-bd1c2ce04841",
   "project_id": "ed7d9d81-299d-414a-b8a9-2711a5fa99a2",
-  "url": "/__l5e/assets-v1/51393a59-c7c1-4db8-b7ff-bd1c2ce04841/farmhouse-parbhani-03.webp",
-  "r2_key": "a/v1/ed7d9d81-299d-414a-b8a9-2711a5fa99a2/51393a59-c7c1-4db8-b7ff-bd1c2ce04841/farmhouse-parbhani-03.webp",
+  "url": "/__l5e/assets-v1/a51393a5-c7c1-4db8-b7ff-bd1c2ce04841/farmhouse-parbhani-03.webp",
+  "r2_key": "a/v1/ed7d9d81-299d-414a-b8a9-2711a5fa99a2/a51393a5-c7c1-4db8-b7ff-bd1c2ce04841/farmhouse-parbhani-03.webp",
   "original_filename": "farmhouse-parbhani-03.webp",
-  "size": 5455837,
-  "content_type": "application/zip",
-  "created_at": "2026-08-13T05:38:54Z"
+  "content_type": "image/webp",
+  "created_at": "2026-08-13T05:46:36Z"
 }
