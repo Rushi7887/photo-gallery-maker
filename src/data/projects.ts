@@ -212,15 +212,15 @@ export const projects: Project[] = [
   {
     slug: "advanced-manufacturing-plant-shendra",
     index: "07",
-    title: "Advanced Manufacturing Plant",
+    title: "Industrial facility renovation & Office Integration",
     category: "Industrial",
-    meta: "Industrial · Advanced Production · Shendra",
+    meta: "Industrial · Renovation & Office Integration · AURIC Shendra",
     year: "2026",
-    location: "Shendra, Chhatrapati Sambhajinagar",
+    location: "AURIC Shendra, Chhatrapati Sambhaji Nagar",
     status: "In progress",
-    scope: "Architecture · Industrial Masterplanning · Sustainable Design",
+    scope: "Architectural layout development (2D & 3D)",
     summary:
-      "A state-of-the-art manufacturing plant in Shendra designed for high-precision production. The facility incorporates advanced industrial planning, optimized logistics, and a modern architectural expression that reflects the cutting-edge technology housed within.",
+      "This project involves the strategic redevelopment of an existing 50×50 meter industrial shed located in the AURIC Shendra industrial zone. The core challenge was to integrate a functional office space and multiple work units within the existing structure while preserving critical operational elements—including storage areas, conveyor lines, and other established industrial spaces.",
     cover: advancedPlant1.url,
     gallery: [
       { src: advancedPlant1.url, caption: "Main perspective — modern industrial facade" },
