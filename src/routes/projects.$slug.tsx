@@ -152,7 +152,7 @@ function ProjectPage() {
           {others.map((p) => (
             <Link key={p.slug} to="/projects/$slug" params={{ slug: p.slug }} className="group">
               <img
-                src={p.cover}
+                src={p.cover || ""}
                 alt={p.title}
                 loading="lazy"
                 width={1400}
