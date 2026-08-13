@@ -2,16 +2,16 @@ import { Link } from "@tanstack/react-router";
 
 export function SiteHeader() {
   const items = [
-    { n: "01", label: "Index", to: "/", hash: "" },
-    { n: "02", label: "Projects", to: "/", hash: "projects" },
+    { n: "01", label: "Index", to: "/home", hash: "" },
+    { n: "02", label: "Projects", to: "/home", hash: "projects" },
     { n: "03", label: "3D Visualisation", to: "/visualisation", hash: "" },
-    { n: "04", label: "Contact", to: "/", hash: "contact" },
+    { n: "04", label: "Contact", to: "/home", hash: "contact" },
   ];
 
   return (
     <header className="sticky top-0 z-50 border-b border-white/10 backdrop-blur text-white" style={{ backgroundColor: '#954842' }}>
       <div className="mx-auto flex max-w-[1400px] items-center justify-between gap-6 px-5 py-4 md:px-10">
-        <Link to="/" className="flex items-center gap-3">
+        <Link to="/home" className="flex items-center gap-3">
           <span className="flex h-8 w-8 items-center justify-center bg-white text-[#954842] label-mono">
             VN
           </span>
