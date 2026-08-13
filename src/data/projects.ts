@@ -136,15 +136,15 @@ export const projects: Project[] = [
   {
     slug: "manufacturing-unit-gummidipoondi",
     index: "03",
-    title: "Manufacturing Unit — Tamil Nadu",
+    title: "Industrial manufacturing Facility",
     category: "Industrial",
     meta: "Industrial · Manufacturing Facility · Gummidipoondi",
     year: "2026",
     location: "Gummidipoondi",
     status: "In progress",
-    scope: "Architecture · Master Planning · Industrial Design",
+    scope: "Internal Planning & Full-plant Modeling and Visualization",
     summary:
-      "A sophisticated industrial manufacturing facility in Gummidipoondi, planned for maximum efficiency and site utilization. The design features a comprehensive master layout that integrates production zones, logistics, and administrative areas.",
+      "This on-going industrial project focuses on the internal planning and spatial optimization of an existing manufacturing shed measuring 100×42 meters in Gummidipoondi, Tamil Nadu. The primary objective is to design and implement an efficient storage racking system that maximizes rack capacity while ensuring safe and functional gangways for forklift operations and personnel movement.",
     cover: gundiLayoutV2.url,
     gallery: [
       { src: gundiLayoutV2.url, caption: "Master Layout — Site planning and logistics flow" },
