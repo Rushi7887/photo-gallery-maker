@@ -52,6 +52,14 @@ import apartmentSamba07 from "@/assets/3d/reordered/apartment-sambhajinagar-07.w
 import apartmentSamba08 from "@/assets/3d/reordered/apartment-sambhajinagar-08.webp.asset.json";
 import bungalowSamba09 from "@/assets/3d/reordered/bungalow-sambhajinagar-09.webp.asset.json";
 import bungalowSamba10 from "@/assets/3d/reordered/bungalow-sambhajinagar-10.webp.asset.json";
+import industryVadodara11 from "@/assets/3d/reordered/industry-vadodara-11.png.asset.json";
+import housingPune12 from "@/assets/3d/reordered/housing-pune-12.webp.asset.json";
+import housingPune13 from "@/assets/3d/reordered/housing-pune-13.webp.asset.json";
+import commercialParbhani14 from "@/assets/3d/reordered/commercial-parbhani-14.webp.asset.json";
+import housingPune15 from "@/assets/3d/reordered/housing-pune-15.webp.asset.json";
+import bedroomParbhani16 from "@/assets/3d/reordered/bedroom-parbhani-16.png.asset.json";
+import livingRoomParbhani17 from "@/assets/3d/reordered/living-room-parbhani-17.png.asset.json";
+
 
 
 export const categories = [
@@ -261,7 +269,15 @@ export const projects: Project[] = [
       { src: apartmentSamba08.url, caption: "08. Apartment, Chhatrapati Sambhajinagar" },
       { src: bungalowSamba09.url, caption: "09. Bungalow, Chhatrapati Sambhajinagar" },
       { src: bungalowSamba10.url, caption: "10. Bungalow, Chhatrapati Sambhajinagar" },
+      { src: industryVadodara11.url, caption: "11. Industry, Vadodara" },
+      { src: housingPune12.url, caption: "12. Housing, Pune" },
+      { src: housingPune13.url, caption: "13. Housing, Pune" },
+      { src: commercialParbhani14.url, caption: "14. Commercial, Parbhani" },
+      { src: housingPune15.url, caption: "15. Housing, Pune" },
+      { src: bedroomParbhani16.url, caption: "16. Bedroom, Parbhani" },
+      { src: livingRoomParbhani17.url, caption: "17. Living Room, Parbhani" },
     ],
+
   },
 ];
 
