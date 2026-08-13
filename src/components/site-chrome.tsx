@@ -78,7 +78,7 @@ export function SiteFooter() {
         </div>
         <div className="mt-16 flex flex-wrap justify-between gap-3 border-t border-white/15 pt-6 label-mono opacity-60">
           <span>© 2026 VN Architects</span>
-          <span>Residential · Industrial · Interior · Landscaping</span>
+          <span>INDUSTRIAL · RESIDENTIAL · CORPORATES · ALL TYPES OF INTERIORS</span>
         </div>
       </div>
     </footer>

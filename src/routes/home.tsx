@@ -10,13 +10,13 @@ export const Route = createFileRoute("/home")({
       {
         name: "description",
         content:
-          "VN Architects designs residential, industrial, interior and landscaping projects in Chhatrapati Sambhajinagar. Selected works by Ar. Vedant Nalawade.",
+          "VN Architects designs industrial, residential, corporate and interior projects in Chhatrapati Sambhajinagar. Selected works by Ar. Vedant Nalawade.",
       },
       { property: "og:title", content: "VN Architects — Ar. Vedant Nalawade, Architect" },
       {
         property: "og:description",
         content:
-          "Residential · Industrial · Interior · Landscaping. Selected works from the studio of Ar. Vedant Nalawade.",
+          "Industrial · Residential · Corporates · All Types of Interiors. Selected works from the studio of Ar. Vedant Nalawade.",
       },
     ],
   }),
@@ -72,7 +72,7 @@ function Index() {
           Architects.
         </h1>
         <p className="mt-12 max-w-2xl text-lg leading-relaxed text-[#666] md:text-xl">
-          Residential, industrial, interior and landscaping design — drawn with
+          Industrial, residential, corporate design and all types of interior design — drawn with
           discipline, built with material honesty and made for the way people actually
           live and work.
         </p>
