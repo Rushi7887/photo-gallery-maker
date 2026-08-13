@@ -94,7 +94,7 @@ function VisualisationPage() {
                 aria-label={`Open photo ${idx + 1} full size`}
               >
                 <img
-                  src={item.src}
+                  src={item.src || ""}
                   alt={item.caption}
                   loading="lazy"
                   width={1400}
