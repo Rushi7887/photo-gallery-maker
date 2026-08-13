@@ -53,7 +53,7 @@ import viz08 from "@/assets/3d/v2/08-apartment-cs-v2.png.asset.json";
 import viz09 from "@/assets/3d/v2/09-bungalow-cs-v2.png.asset.json";
 import viz10 from "@/assets/3d/v2/10-bungalow-sambhajinagar.png.asset.json";
 import industryVadodara11 from "@/assets/3d/v2/11-industry-vadodara.png.asset.json";
-import housingPune12 from "@/assets/housing-pune-1.webp.asset.json";
+import housingPune12 from "@/assets/3d/v2/12-housing-pune-v2.png.asset.json";
 import housingPune13 from "@/assets/housing-pune-2.webp.asset.json";
 import commercialParbhani14 from "@/assets/commercial-parbhani.webp.asset.json";
 import housingPune15 from "@/assets/housing-pune-3.webp.asset.json";
