@@ -119,8 +119,8 @@ function Index() {
               // Only count projects that are NOT "3D Visualization" since they are excluded from this grid
               const count =
                 f === "All"
-                  ? projects.filter((p) => p.category !== "3D Visualization").length
-                  : projects.filter((p) => p.category === f && p.category !== "3D Visualization")
+                  ? projects.filter((p) => (p.category as string) !== "3D Visualization").length
+                  : projects.filter((p) => p.category === f && (p.category as string) !== "3D Visualization")
                       .length;
               return (
                 <button
