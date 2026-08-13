@@ -16,14 +16,17 @@ function Splash() {
       setCurrentImageIndex((prev) => (prev + 1) % heroSlideshow.length);
     }, 5000);
 
-    // Auto redirect after 8 seconds to allow full animation experience
-    const redirectTimer = setTimeout(() => {
-      navigate({ to: "/home" });
-    }, 12000);
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        navigate({ to: "/home" });
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
       clearInterval(slideTimer);
-      clearTimeout(redirectTimer);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, [navigate]);
 
