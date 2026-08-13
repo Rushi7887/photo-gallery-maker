@@ -42,23 +42,17 @@ import gundiView3 from "@/assets/industrial/gummidipoondi/view-03.png.asset.json
 import sharonHall1 from "@/assets/religious/sharon-hall-1.png.asset.json";
 import sharonHall2 from "@/assets/religious/sharon-hall-2.png.asset.json";
 import sharonHallPlan from "@/assets/religious/sharon-hall-plan.png.asset.json";
-import apartmentExt1 from "@/assets/3d/apartment-ext-1.png.asset.json";
-import complexAerial from "@/assets/3d/complex-aerial.png.asset.json";
-import apartmentExt2 from "@/assets/3d/apartment-ext-2.png.asset.json";
-import urbanComplexAerial from "@/assets/3d/urban-complex-aerial.png.asset.json";
-import modernApartment from "@/assets/3d/modern-apartment.png.asset.json";
-import luxuryBedroom from "@/assets/3d/luxury-bedroom.png.asset.json";
-import entranceNight from "@/assets/3d/entrance-night.png.asset.json";
-import villaNight from "@/assets/3d/villa-night.png.asset.json";
-import commercialModern from "@/assets/3d/commercial-modern.png.asset.json";
-import farmhouseSamba1 from "@/assets/3d/farmhouse-sambhajinagar-1.png.asset.json";
-import interiorLiving1 from "@/assets/3d/interior-living-room-1.png.asset.json";
-import farmhousePaithan1 from "@/assets/3d/farmhouse-paithan-1.png.asset.json";
-import interiorLiving2 from "@/assets/3d/interior-living-room-2.png.asset.json";
-import farmhousePaithanNight from "@/assets/3d/farmhouse-paithan-night.png.asset.json";
-import luxuryVillaNight from "@/assets/3d/luxury-villa-night.png.asset.json";
-import interiorTvUnit from "@/assets/3d/interior-tv-unit.png.asset.json";
-import industrialGidc from "@/assets/3d/industrial-gidc.png.asset.json";
+import farmhouseParbhani01 from "@/assets/3d/reordered/farmhouse-parbhani-01.webp.asset.json";
+import farmhouseParbhani02 from "@/assets/3d/reordered/farmhouse-parbhani-02.webp.asset.json";
+import farmhouseParbhani03 from "@/assets/3d/reordered/farmhouse-parbhani-03.webp.asset.json";
+import farmhousePaithan04 from "@/assets/3d/reordered/farmhouse-paithan-04.webp.asset.json";
+import farmhousePaithan05 from "@/assets/3d/reordered/farmhouse-paithan-05.webp.asset.json";
+import farmhousePaithan06 from "@/assets/3d/reordered/farmhouse-paithan-06.webp.asset.json";
+import apartmentSamba07 from "@/assets/3d/reordered/apartment-sambhajinagar-07.webp.asset.json";
+import apartmentSamba08 from "@/assets/3d/reordered/apartment-sambhajinagar-08.webp.asset.json";
+import bungalowSamba09 from "@/assets/3d/reordered/bungalow-sambhajinagar-09.webp.asset.json";
+import bungalowSamba10 from "@/assets/3d/reordered/bungalow-sambhajinagar-10.webp.asset.json";
+
 
 export const categories = [
   "Residential",
