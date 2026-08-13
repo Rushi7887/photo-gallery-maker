@@ -52,6 +52,14 @@ import apartmentSamba07 from "@/assets/3d/reordered/apartment-sambhajinagar-07.w
 import apartmentSamba08 from "@/assets/3d/reordered/apartment-sambhajinagar-08.webp.asset.json";
 import bungalowSamba09 from "@/assets/3d/reordered/bungalow-sambhajinagar-09.webp.asset.json";
 import bungalowSamba10 from "@/assets/3d/reordered/bungalow-sambhajinagar-10.webp.asset.json";
+import industryVadodara11 from "@/assets/3d/reordered/industry-vadodara-11.png.asset.json";
+import housingPune12 from "@/assets/3d/reordered/housing-pune-12.webp.asset.json";
+import housingPune13 from "@/assets/3d/reordered/housing-pune-13.webp.asset.json";
+import commercialParbhani14 from "@/assets/3d/reordered/commercial-parbhani-14.webp.asset.json";
+import housingPune15 from "@/assets/3d/reordered/housing-pune-15.webp.asset.json";
+import bedroomParbhani16 from "@/assets/3d/reordered/bedroom-parbhani-16.png.asset.json";
+import livingRoomParbhani17 from "@/assets/3d/reordered/living-room-parbhani-17.png.asset.json";
+
 
 
 export const categories = [
