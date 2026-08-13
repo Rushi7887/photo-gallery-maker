@@ -184,7 +184,7 @@ function Index() {
 
       {/* Services */}
       <section className="border-t border-border bg-secondary">
-        <div className="mx-auto grid max-w-[1400px] gap-px bg-border px-5 py-16 md:grid-cols-4 md:px-10 md:py-20">
+        <div className="mx-auto grid max-w-[1400px] gap-px bg-border px-5 py-16 md:grid-cols-5 md:px-10 md:py-20">
           {categories.map((c, i) => (
             <button
               key={c}
