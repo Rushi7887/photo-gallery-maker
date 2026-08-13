@@ -52,13 +52,13 @@ import viz07 from "@/assets/3d/v2/viz-07.webp.asset.json";
 import viz08 from "@/assets/3d/v2/viz-08.webp.asset.json";
 import viz09 from "@/assets/3d/v2/viz-09.webp.asset.json";
 import viz10 from "@/assets/3d/v2/viz-10.webp.asset.json";
-import industryVadodara11 from "@/assets/3d/reordered/industry-vadodara-11.png.asset.json";
-import housingPune12 from "@/assets/3d/reordered/housing-pune-12.webp.asset.json";
-import housingPune13 from "@/assets/3d/reordered/housing-pune-13.webp.asset.json";
-import commercialParbhani14 from "@/assets/3d/reordered/commercial-parbhani-14.webp.asset.json";
-import housingPune15 from "@/assets/3d/reordered/housing-pune-15.webp.asset.json";
-import bedroomParbhani16 from "@/assets/3d/reordered/bedroom-parbhani-16.png.asset.json";
-import livingRoomParbhani17 from "@/assets/3d/reordered/living-room-parbhani-17.png.asset.json";
+import industryVadodara11 from "@/assets/industry-vadodara.png.asset.json";
+import housingPune12 from "@/assets/housing-pune-1.webp.asset.json";
+import housingPune13 from "@/assets/housing-pune-2.webp.asset.json";
+import commercialParbhani14 from "@/assets/commercial-parbhani.webp.asset.json";
+import housingPune15 from "@/assets/housing-pune-3.webp.asset.json";
+import bedroomParbhani16 from "@/assets/bedroom-parbhani.png.asset.json";
+import livingRoomParbhani17 from "@/assets/living-room-parbhani.png.asset.json";
 
 
 
