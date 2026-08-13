@@ -92,15 +92,15 @@ export const projects: Project[] = [
   {
     slug: "engineering-automotive-manufacturing-industry-chikhalthana",
     index: "01",
-    title: "Engineering & Automotive Manufacturing",
+    title: "Industrial Storage & Docking Facility Extension",
     category: "Industrial",
-    meta: "Industrial · Automotive Manufacturing · Chikhalthana MIDC",
+    meta: "Industrial · Storage & Docking Facility · Chikhalthana MIDC",
     year: "2026",
     location: "Chikhalthana MIDC, Chhatrapati Sambhajinagar",
     status: "In progress",
-    scope: "Architecture · Industrial Masterplanning · Layout Design",
+    scope: "Planning & 3D Visualization",
     summary:
-      "A specialized facility for engineering and automotive manufacturing located in Chikhalthana MIDC. The project features optimized site planning, specialized loading bays, and a high-efficiency layout designed for heavy industrial operations.",
+      "This on-going industrial project involves the design and development of a proposed storage and docking facility measuring 40×30 meters in Chikhalthana, MIDC, Chhatrapati Sambhaji Nagar. The new structure serves as a strategic extension to the adjacent main shed, enhancing operational capacity and logistical efficiency for the client's industrial operations.",
     cover: engineeringExterior.url,
     videos: [engineeringVideoExt.url, engineeringVideoInt.url],
     
