@@ -273,9 +273,9 @@ export const projects: Project[] = [
       { src: housingPune12.url, caption: "Housing, Pune" },
       { src: housingPune13.url, caption: "Housing, Pune" },
       { src: commercialParbhani14.url, caption: "Commercial, Parbhani" },
-      { src: housingPune15.url, caption: "Housing, Pune" },
       { src: bedroomParbhani16.url, caption: "Bedroom, Parbhani" },
       { src: livingRoomParbhani17.url, caption: "Living Room, Parbhani" },
+      { src: housingPune15.url, caption: "Housing, Pune" },
     ],
 
   },
