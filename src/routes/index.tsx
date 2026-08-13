@@ -16,19 +16,23 @@ function Splash() {
       setCurrentImageIndex((prev) => (prev + 1) % heroSlideshow.length);
     }, 5000);
 
-    // Auto redirect after 8 seconds to allow full animation experience
-    const redirectTimer = setTimeout(() => {
-      navigate({ to: "/home" });
-    }, 12000);
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        navigate({ to: "/home" });
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
       clearInterval(slideTimer);
-      clearTimeout(redirectTimer);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, [navigate]);
 
   return (
-    <div className="relative h-screen w-full overflow-hidden bg-black text-white">
+    <div className="relative h-[200vh] w-full bg-black text-white">
+      <div className="sticky top-0 h-screen w-full overflow-hidden">
       {/* Background Slideshow with Parallax/Zoom */}
       <div className="absolute inset-0 z-0">
         <AnimatePresence mode="wait">
@@ -169,6 +173,7 @@ function Splash() {
           color: transparent;
         }
       `}</style>
+      </div>
     </div>
   );
 }
