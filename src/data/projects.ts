@@ -50,7 +50,7 @@ import viz05 from "@/assets/3d/v2/05-farmhouse-paithan.png.asset.json";
 import viz06 from "@/assets/3d/v2/06-farmhouse-paithan.png.asset.json";
 import viz07 from "@/assets/3d/v2/07-apartment-cs-v2.png.asset.json";
 import viz08 from "@/assets/3d/v2/08-apartment-cs-v2.png.asset.json";
-import viz09 from "@/assets/3d/v2/09-bungalow-sambhajinagar.png.asset.json";
+import viz09 from "@/assets/3d/v2/09-bungalow-cs-v2.png.asset.json";
 import viz10 from "@/assets/3d/v2/10-bungalow-sambhajinagar.png.asset.json";
 import industryVadodara11 from "@/assets/3d/v2/11-industry-vadodara.png.asset.json";
 import housingPune12 from "@/assets/housing-pune-1.webp.asset.json";
