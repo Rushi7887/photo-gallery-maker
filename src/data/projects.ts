@@ -264,7 +264,6 @@ export const projects: Project[] = [
       { src: viz04.url, caption: "Farmhouse, Paithan" },
       { src: viz05.url, caption: "Farmhouse, Paithan" },
       { src: viz06.url, caption: "Farmhouse, Paithan" },
-      { src: viz07.url, caption: "Apartment, Chhatrapati Sambhajinagar" },
       { src: viz08.url, caption: "Apartment, Chhatrapati Sambhajinagar" },
       { src: viz09.url, caption: "Bungalow, Chhatrapati Sambhajinagar" },
       { src: viz10.url, caption: "Bungalow, Chhatrapati Sambhajinagar" },
