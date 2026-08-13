@@ -173,6 +173,7 @@ function Splash() {
           color: transparent;
         }
       `}</style>
+      </div>
     </div>
   );
 }
