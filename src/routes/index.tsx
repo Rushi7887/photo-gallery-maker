@@ -117,8 +117,8 @@ function Splash() {
             transition={{ duration: 1, delay: 1.2 }}
             className="mx-auto max-w-xl text-sm md:text-base text-white/60 font-light leading-relaxed mb-12"
           >
-            Creating bold, functional and timeless spaces through innovative architectural thinking. 
-            Designing the future of residential and industrial landscapes.
+            Crafting spaces that work—through thoughtful planning, material
+            authenticity, and a deep understanding of how people live and work.
           </motion.p>
 
           <motion.div

@@ -72,9 +72,8 @@ function Index() {
           Architects.
         </h1>
         <p className="mt-12 max-w-2xl text-lg leading-relaxed text-[#666] md:text-xl">
-          Industrial, residential, corporate design and all types of interior design — drawn with
-          discipline, built with material honesty and made for the way people actually
-          live and work.
+          Crafting spaces that work—through thoughtful planning, material
+          authenticity, and a deep understanding of how people live and work.
         </p>
         <div className="mt-12 overflow-hidden relative group">
           <div className="aspect-[16/10] w-full relative">
