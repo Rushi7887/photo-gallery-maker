@@ -230,15 +230,15 @@ export const projects: Project[] = [
   {
     slug: "farmhouse-gangapur",
     index: "08",
-    title: "Farmhouse — Gangapur",
+    title: "Farmhouse Residence",
     category: "Residential",
-    meta: "Residential · Weekend Home · Gangapur",
+    meta: "Residential · Farmhouse Residence · Gangapur",
     year: "2026",
     location: "Gangapur, Chhatrapati Sambhajinagar",
     status: "In progress",
-    scope: "Architecture · Landscape integration · Site supervision",
+    scope: "Architectural Consultancy",
     summary:
-      "A weekend retreat designed to blend seamlessly with its natural surroundings. The project focuses on open spaces, cross-ventilation, and panoramic views of the Gangapur landscape, creating a peaceful escape from the city.",
+      "Nestled in the serene landscape of a village near Gangapur, this farmhouse project is conceived as a harmonious blend of contemporary living and contextual sensitivity. The design responds thoughtfully to the client's brief while respecting and enhancing the natural and cultural character of its rural setting.",
     cover: farmhouse1.url,
     gallery: [
       { src: farmhouse1.url, caption: "Main elevation — contemporary form with large openings" },
