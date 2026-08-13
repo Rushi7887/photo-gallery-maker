@@ -12,4 +12,13 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { entry: "server" },
   },
+  vite: {
+    // Explicitly handle Nitro target for Vercel if needed, though auto-detection is usually preferred.
+    // We add this to ensure public assets are correctly mapped.
+    resolve: {
+      alias: {
+        "@": "/src",
+      },
+    },
+  },
 });
