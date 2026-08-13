@@ -200,9 +200,9 @@ export const projects: Project[] = [
     year: "2026",
     location: "Chhatrapati Sambhajinagar",
     status: "In progress",
-    scope: "Architecture · Commercial planning · Facade design",
+    scope: "Architectural planning & facade Treatment",
     summary:
-      "A modern commercial complex designed for high visibility and efficient retail flow. The facade uses a mix of glass and solid volumes to create a contemporary landmark while maximizing natural light for the upper-floor office spaces.",
+      "This commercial complex is thoughtfully designed on a compact plot with built-up conditions on three sides, presenting unique spatial and environmental challenges. The project demonstrates how strategic planning can transform site constraints into opportunities for efficient, well-lit, and Vastu-compliant commercial spaces.",
     cover: commercial1.url,
     gallery: [
       { src: commercial1.url, caption: "Front elevation — modern glass facade and retail frontage" },
