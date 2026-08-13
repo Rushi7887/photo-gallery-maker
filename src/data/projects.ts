@@ -45,7 +45,7 @@ import sharonHallPlan from "@/assets/religious/sharon-hall-plan.png.asset.json";
 import viz01 from "@/assets/3d/v2/viz-01.webp.asset.json";
 import viz02 from "@/assets/3d/v2/farmhouse-parbhani-2.png.asset.json";
 import viz03 from "@/assets/3d/v2/farmhouse-parbhani-3.png.asset.json";
-import viz04 from "@/assets/3d/v2/viz-04.webp.asset.json";
+import viz04 from "@/assets/3d/v2/04-farmhouse-paithan.png.asset.json";
 import viz05 from "@/assets/3d/v2/viz-05.webp.asset.json";
 import viz06 from "@/assets/3d/v2/viz-06.webp.asset.json";
 import viz07 from "@/assets/3d/v2/viz-07.webp.asset.json";
