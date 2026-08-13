@@ -18,6 +18,7 @@ export const Route = createFileRoute("/home")({
         content:
           "Industrial · Residential · Corporates · All Types of Interiors. Selected works from the studio of Ar. Vedant Nalawade.",
       },
+      { property: "og:url", content: "https://vnarchitect.in/home" },
     ],
   }),
   component: Index,
