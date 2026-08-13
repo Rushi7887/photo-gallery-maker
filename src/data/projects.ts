@@ -112,17 +112,17 @@ export const projects: Project[] = [
     ],
   },
   {
-    slug: "teak-travertine-apartment",
+    slug: "bungalow-interior",
     index: "02",
-    title: "Teak & Travertine Apartment",
+    title: "Bungalow Interior",
     category: "Interior",
-    meta: "Interior · Turnkey · Living, dining & master suite",
+    meta: "Interior · Bungalow · Paithan Road",
     year: "2025",
-    location: "Chhatrapati Sambhajinagar",
+    location: "Paithan Road, Chhatrapati Sambhaji Nagar",
     status: "In progress",
-    scope: "Turnkey interior · Furniture design · Lighting",
+    scope: "Interior Designing & End-to-end Project Coordination",
     summary:
-      "A turnkey apartment interior built on two materials — teak veneer and travertine. Joinery runs floor to ceiling to hide services, and the lighting is layered so the same rooms read differently by day and at night.",
+      "This on-going interior design project encompasses a G+2 bungalow located on Paithan Road, Chhatrapati Sambhaji Nagar. The design philosophy embraces a modern minimalist approach, creating spaces that are visually refined, highly functional, and tailored to contemporary living—without compromising on comfort or budget efficiency.",
     cover: livingRoomSofa.url,
     gallery: [
       { src: livingRoomSofa.url, caption: "Living area — custom sofa and warm ambient lighting" },
