@@ -19,6 +19,8 @@ export const Route = createFileRoute("/home")({
           "Industrial · Residential · Corporates · All Types of Interiors. Selected works from the studio of Ar. Vedant Nalawade.",
       },
       { property: "og:url", content: "https://vnarchitect.in/home" },
+      { name: "twitter:title", content: "VN Architects — Ar. Vedant Nalawade, Architect" },
+      { name: "twitter:description", content: "Industrial · Residential · Corporates · All Types of Interiors. Selected works from the studio of Ar. Vedant Nalawade." },
     ],
   }),
   component: Index,

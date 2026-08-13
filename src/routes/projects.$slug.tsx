@@ -24,6 +24,11 @@ export const Route = createFileRoute("/projects/$slug")({
         { name: "description", content: project.summary.slice(0, 155) },
         { property: "og:title", content: title },
         { property: "og:description", content: project.summary.slice(0, 155) },
+        { property: "og:url", content: `https://vnarchitect.in/projects/${project.slug}` },
+        { name: "twitter:title", content: title },
+        { name: "twitter:description", content: project.summary.slice(0, 155) },
+        { property: "og:image", content: project.cover },
+        { name: "twitter:image", content: project.cover },
       ],
     };
   },
