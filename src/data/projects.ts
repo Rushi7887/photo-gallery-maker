@@ -205,8 +205,8 @@ export const projects: Project[] = [
       "This commercial complex is thoughtfully designed on a compact plot with built-up conditions on three sides, presenting unique spatial and environmental challenges. The project demonstrates how strategic planning can transform site constraints into opportunities for efficient, well-lit, and Vastu-compliant commercial spaces.",
     cover: commercial1.url,
     gallery: [
-      { src: commercial1.url, caption: "Front elevation — modern glass facade and retail frontage" },
-      { src: commercial2.url, caption: "Perspective view — corner plot utilization and signage zones" },
+      { src: commercial1.url, caption: "Perspective view — corner plot utilization and signage zones" },
+      { src: commercial2.url, caption: "Front elevation — modern glass facade and retail frontage" },
     ],
   },
   {
