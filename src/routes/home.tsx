@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { SiteFooter, SiteHeader } from "@/components/site-chrome";
 import { categories, heroImage, heroSlideshow, projects, type Category } from "@/data/projects";
 
-export const Route = createFileRoute("/")({
+export const Route = createFileRoute("/home")({
   head: () => ({
     meta: [
       { title: "VN Architects — Ar. Vedant Nalawade, Architect" },
