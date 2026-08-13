@@ -51,7 +51,7 @@ function Index() {
   }, []);
 
   const visible = (active === "All" ? projects : projects.filter((p) => p.category === active))
-    .filter(p => p.category !== "3D Visualization");
+    .filter(p => (p.category as string) !== "3D Visualization");
 
   return (
     <div className="min-h-screen bg-background">
@@ -116,8 +116,12 @@ function Index() {
           <div role="tablist" aria-label="Filter projects by category" className="mt-10 flex flex-wrap gap-2">
             {filters.map((f) => {
               const isActive = active === f;
+              // Only count projects that are NOT "3D Visualization" since they are excluded from this grid
               const count =
-                f === "All" ? projects.length : projects.filter((p) => p.category === f).length;
+                f === "All"
+                  ? projects.filter((p) => (p.category as string) !== "3D Visualization").length
+                  : projects.filter((p) => p.category === f && (p.category as string) !== "3D Visualization")
+                      .length;
               return (
                 <button
                   key={f}
