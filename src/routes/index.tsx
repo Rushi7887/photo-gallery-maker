@@ -37,9 +37,7 @@ function Splash() {
           className="text-4xl md:text-6xl font-black tracking-tighter uppercase leading-none"
           style={{ color: '#954842' }}
         >
-          Ar. Vedant
-          <br />
-          Nalawade
+          VN
           <br />
           Architects<span className="text-white">.</span>
         </h1>
