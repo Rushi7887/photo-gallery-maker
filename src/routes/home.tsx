@@ -51,7 +51,7 @@ function Index() {
   }, []);
 
   const visible = (active === "All" ? projects : projects.filter((p) => p.category === active))
-    .filter(p => p.category !== "3D Visualization");
+    .filter(p => (p.category as string) !== "3D Visualization");
 
   return (
     <div className="min-h-screen bg-background">
