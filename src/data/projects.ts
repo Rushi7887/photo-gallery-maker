@@ -261,9 +261,9 @@ export const projects: Project[] = [
     gallery: [
       { src: farmhouseParbhani01.url, caption: "01. Farmhouse, Parbhani" },
       { src: farmhouseParbhani02.url, caption: "02. Farmhouse, Parbhani" },
-      { src: farmhouseParbhani03.url, caption: "03. Farmhouse, Parbhani" },
+      { src: farmhouseParbhani02.url, caption: "03. Farmhouse, Parbhani" },
       { src: farmhousePaithan04.url, caption: "04. Farmhouse, Paithan" },
-      { src: farmhousePaithan05.url, caption: "05. Farmhouse, Paithan" },
+      { src: farmhousePaithan04.url, caption: "05. Farmhouse, Paithan" },
       { src: farmhousePaithan06.url, caption: "06. Farmhouse, Paithan" },
       { src: farmhouseParbhani01.url, caption: "07. Apartment, Chhatrapati Sambhajinagar" },
       { src: farmhousePaithan06.url, caption: "08. Apartment, Chhatrapati Sambhajinagar" },
