@@ -31,7 +31,8 @@ function Splash() {
   }, [navigate]);
 
   return (
-    <div className="relative h-screen w-full overflow-hidden bg-black text-white">
+    <div className="relative h-[200vh] w-full bg-black text-white">
+      <div className="sticky top-0 h-screen w-full overflow-hidden">
       {/* Background Slideshow with Parallax/Zoom */}
       <div className="absolute inset-0 z-0">
         <AnimatePresence mode="wait">
