@@ -14,10 +14,13 @@ export const Route = createFileRoute("/visualisation")({
           "High-end architectural 3D visualizations by VN Architects. Exterior perspectives, interior renders, and urban planning visualizations.",
       },
       { property: "og:title", content: "3D Visualisation — VN Architects" },
-      {
-        property: "og:description",
-        content: "High-end architectural 3D visualizations and photorealistic renders.",
-      },
+        {
+          property: "og:description",
+          content: "High-end architectural 3D visualizations and photorealistic renders.",
+        },
+        { property: "og:url", content: "https://vnarchitect.in/visualisation" },
+        { name: "twitter:title", content: "3D Visualisation — VN Architects" },
+        { name: "twitter:description", content: "High-end architectural 3D visualizations and photorealistic renders." },
     ],
   }),
   component: VisualisationPage,

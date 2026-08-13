@@ -78,9 +78,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "VN Architects — Ar. Vedant Nalawade, Architect" },
+      { name: "description", content: "VN Architects: Leading architectural studio in Chhatrapati Sambhajinagar specializing in Industrial, Residential, and Interior design. Led by Ar. Vedant Nalawade." },
       { name: "author", content: "VN Architects" },
       { property: "og:url", content: "https://vnarchitect.in" },
       { property: "og:type", content: "website" },
+      { property: "og:title", content: "VN Architects — Ar. Vedant Nalawade, Architect" },
+      { property: "og:description", content: "Leading architectural studio in Chhatrapati Sambhajinagar specializing in Industrial, Residential, and Interior design." },
       { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
