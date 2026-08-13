@@ -48,6 +48,7 @@ import viz03 from "@/assets/3d/v2/farmhouse-parbhani-3.png.asset.json";
 import viz04 from "@/assets/3d/v2/04-farmhouse-paithan.png.asset.json";
 import viz05 from "@/assets/3d/v2/05-farmhouse-paithan.png.asset.json";
 import viz06 from "@/assets/3d/v2/06-farmhouse-paithan.png.asset.json";
+import viz07 from "@/assets/3d/v2/07-apartment-cs-v2.png.asset.json";
 import viz08 from "@/assets/3d/v2/08-apartment-sambhajinagar.png.asset.json";
 import viz09 from "@/assets/3d/v2/09-bungalow-sambhajinagar.png.asset.json";
 import viz10 from "@/assets/3d/v2/10-bungalow-sambhajinagar.png.asset.json";
@@ -264,6 +265,7 @@ export const projects: Project[] = [
       { src: viz04.url, caption: "Farmhouse, Paithan" },
       { src: viz05.url, caption: "Farmhouse, Paithan" },
       { src: viz06.url, caption: "Farmhouse, Paithan" },
+      { src: viz07.url, caption: "Apartment, Chhatrapati Sambhajinagar" },
       { src: viz08.url, caption: "Apartment, Chhatrapati Sambhajinagar" },
       { src: viz09.url, caption: "Bungalow, Chhatrapati Sambhajinagar" },
       { src: viz10.url, caption: "Bungalow, Chhatrapati Sambhajinagar" },
